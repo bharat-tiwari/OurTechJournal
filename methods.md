@@ -23,6 +23,7 @@ For example, to have the background color property value of a div transitioned f
 ```
 
 Above is short-hand for specifying below 4 transition related properties:
+
 ```sass
 .myClass {
   transition-property: background-color; 
@@ -32,13 +33,9 @@ Above is short-hand for specifying below 4 transition related properties:
 }
 ```
 
-
-
 ```
 
 ```
-
-
 
 
 
