@@ -2,8 +2,9 @@
 
 ## Overview
 
-* [My Awesome API](README.md)
+* [Introduction](README.md)
 
-## Methods
+## CSS3, SASS
 
-* [Defining Methods](methods.md)
+* [CSS3 Transitions](methods.md)
+

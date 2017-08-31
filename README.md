@@ -1,3 +1,6 @@
-# My Awesome API
+# Introduction
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This documentation has been created to serve as a centralized knowledge base for our awesome team where we can jot down and share our learnings of web technologies.
+
+
+

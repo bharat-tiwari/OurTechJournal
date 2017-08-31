@@ -1,30 +1,44 @@
-# Defining Methods
+# CSS3 Transitions
 
-Methods allow you to smoothly display code examples in different languages.
+CSS3 Transitions allows us to change the value of another CSS property from one value to another over a specified duration of time.
 
-{% method %}
-## My first method
+The `transition` property takes below format:
 
-My first method exposes how to print a message in JavaScript and Go.
-
-{% sample lang="js" %}
-Here is how to print a message to `stdout` using JavaScript.
-
-```js
-console.log('My first method');
+```sass
+.myClass { 
+    transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay] 
+}
 ```
 
-{% sample lang="go" %}
-Here is how to print a message to `stdout` using Go.
+For example, to have the background color property value of a div transitioned from its original value to a new value, we can have something like below:
 
-```go
-fmt.Println("My first method")
+```sass
+.myClass {
+  background-color: #eeeeee;
+  transition-property: background-color 10s ease 1s;
+  &:hover{
+    background-color: #ff9900;
+  }
+}
 ```
 
-{% common %}
-Whatever language you are using, the result will be the same.
-
-```bash
-$ My first method
+Above is short-hand for specifying below 4 transition related properties:
+```sass
+.myClass {
+  transition-property: background-color; 
+  transition-duration: 10s; 
+  transition-timing-function: ease; 
+  transition-delay: 1s;
+}
 ```
-{% endmethod %}
+
+
+
+```
+
+```
+
+
+
+
+
