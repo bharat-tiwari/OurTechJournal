@@ -35,7 +35,7 @@ Above is short-hand for specifying below 4 transition related properties:
 
 [source code](https://jsfiddle.net/tiwarib/u35vg0o1/embed/js,html,css,result/dark/)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/tiwarib/u35vg0o1/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 
 
 
