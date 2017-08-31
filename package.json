@@ -1,0 +1,22 @@
+{
+  "name": "jsified-brains-our-tech-journal",
+  "version": "1.0.0",
+  "description": "JSified Brains Team Knowledge Base / Tech Journal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharat-tiwari/OurTechJournal.git"
+  },
+  "author": "Bharat Tiwari, Rashmi Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharat-tiwari/OurTechJournal/issues"
+  },
+  "homepage": "https://github.com/bharat-tiwari/OurTechJournal#readme",
+  "dependencies": {
+    "gitbook-plugin-jsfiddle": "^1.0.0"
+  }
+}
