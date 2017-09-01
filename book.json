@@ -17,7 +17,7 @@
         "jsfiddle":{
             "type":"script",
             "tabs":["result","js","css", "html"],
-            "height": "500",
+            "height": "2000",
             "width": "500",
             "fontColor": "#1a1a1a",
             "bodyColor": "#444",
