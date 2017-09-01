@@ -4,7 +4,7 @@ CSS3 Transitions allows us to change the value of another CSS property from one 
 
 The `transition` property takes below format:
 
-```sass
+```css
 .myClass { 
     transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay] 
 }
@@ -24,7 +24,7 @@ For example, to have the background color property value of a div transitioned f
 
 Above is short-hand for specifying below 4 transition related properties:
 
-```sass
+```css
 .myClass {
   transition-property: background-color; 
   transition-duration: 10s; 
@@ -33,7 +33,11 @@ Above is short-hand for specifying below 4 transition related properties:
 }
 ```
 
-[source code](https://jsfiddle.net/tiwarib/u35vg0o1/embed/js,html,css,result/dark/)
+[JSFiddle](https://jsfiddle.net/tiwarib/u35vg0o1/4/#bodyColor=444)
+
+
+
+
 
 
 
