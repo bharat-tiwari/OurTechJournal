@@ -20,7 +20,8 @@
             "height": "500",
             "width": "500",
             "fontColor": "#1a1a1a",
-            "bodyColor": "#444"
+            "bodyColor": "#444",
+            "visual": "dark"
           }
     }
 }
