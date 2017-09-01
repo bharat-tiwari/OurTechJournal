@@ -4,7 +4,8 @@
   "description": "JSified Brains Team Knowledge Base / Tech Journal",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gitbook build"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/bharat-tiwari/OurTechJournal#readme",
   "dependencies": {
     "gitbook-plugin-jsfiddle": "^1.0.0"
+  },
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
   }
 }
