@@ -12,7 +12,7 @@ The `transition` property takes below format:
 
 For example, to have the background color property value of a div transitioned from its original value to a new value, we can have something like below:
 
-```sass
+```css
 .myClass {
   background-color: #eeeeee;
   transition-property: background-color 10s ease 1s;

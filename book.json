@@ -16,10 +16,11 @@
         },
         "jsfiddle":{
             "type":"frame",
-            "tabs":["result","js","css", "html"],
+            "tabs":["html","js","css","result"],
             "height": "2000",
             "width": "500",
-            "theme": "dark"
+            "bodyColor":"444444",
+            "theme": "dark",
        }
     }
 }
