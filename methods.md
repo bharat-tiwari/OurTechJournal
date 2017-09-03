@@ -33,9 +33,9 @@ Above is short-hand for specifying below 4 transition related properties:
 }
 ```
 
-| Tables        |
+| [JSFiddle](https://jsfiddle.net/tiwarib/u35vg0o1/#tabs=html,css,result)        |
 | ------------- |
-| [JSFiddle](https://jsfiddle.net/tiwarib/u35vg0o1/#tabs=html,css,result) |
+||
 
 
 
