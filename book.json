@@ -18,7 +18,7 @@
             "type":"frame",
             "tabs":["html","js","css","result"],
             "height": "500",
-            "width": "500",
+            "width": "80%",
             "theme": "dark"
        }
     }
