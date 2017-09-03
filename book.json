@@ -15,13 +15,11 @@
             ]
         },
         "jsfiddle":{
-            "type":"script",
+            "type":"frame",
             "tabs":["result","js","css", "html"],
             "height": "2000",
             "width": "500",
-            "fontColor": "#1a1a1a",
-            "bodyColor": "#444",
-            "visual": "dark"
+            "theme": "dark"
        }
     }
 }
