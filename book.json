@@ -19,7 +19,6 @@
             "tabs":["html","js","css","result"],
             "height": "500",
             "width": "500",
-            "bodyColor":"444444",
             "theme": "dark"
        }
     }
