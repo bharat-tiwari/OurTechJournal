@@ -7,7 +7,8 @@ Following effects are available to be applied using `filter` property:
 filter:  brightness() | contrast() | blur() | grayscale() | hue-rotate() | drop-shadow() | invert() | opacity() | saturate() | sepia();
 ```
 
-Examples:
+## Examples:
+
 [JSFiddle](https://jsfiddle.net/tiwarib/a9err95o/#tabs=result,css,html)
 
 
