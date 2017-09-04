@@ -4,8 +4,12 @@
 
 * [Introduction](README.md)
 
-## CSS3, SASS
+## CSS
 
-* [CSS3 Transitions](methods.md)
 * [CSS3 Filter](css3-filter.md)
+* [CSS3 Transitions](methods.md)
+
+## SASS, SCSS
+
+* [SASS Mixins](sass-scss/sass-mixins.md)
 
