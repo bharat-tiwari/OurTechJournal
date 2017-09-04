@@ -8,7 +8,7 @@ filter:  brightness() | contrast() | blur() | grayscale() | hue-rotate() | drop-
 ```
 
 Examples:
-[JSFiddle](https://jsfiddle.net/tiwarib/a9err95o/#tabs=html,css,result)
+[JSFiddle](https://jsfiddle.net/tiwarib/a9err95o/#tabs=result,css,html)
 
 
 
