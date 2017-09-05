@@ -19,7 +19,7 @@ This documentation has been created to serve as a centralized knowledge base for
  <td width="75%">
    <h5>Rashmi Tiwari</h5>
    <span>Front-end developer</span>
-   <!-- span>A front-end developer who  aspires to awe the world. I ❤ CSS & JavaScript.</span -->
+   
  </td>
 </tr>
 </table>
@@ -29,21 +29,19 @@ This documentation has been created to serve as a centralized knowledge base for
   <ul>
     <li>
       <img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100" />
-      <h3>Headline</h3>
-      <p>Lorem ipsum dolor sit amet.</p>
+      <h3>Bharat Tiwari</h3>
+      <p>JavaScript | ASP.net | Azure</p>
     </li>
       
     <li>
       <img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100" />
-      <h3>Headline</h3>
-      <p>Lorem ipsum dolor sit amet...</p>
+      <h3>Rashmi Tiwari</h3>
+      <p>Front-end developer
+      <!-- span>A front-end developer who  aspires to awe the world. I ❤ CSS & JavaScript.</span -->
+      </p>
     </li>
  
-    <li>
-      <img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100" />
-      <h3>Headline</h3>
-      <p>Lorem ipsum dolor sit amet...</p>
-    </li>
+
 
   </ul>
   </div>
