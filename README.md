@@ -10,7 +10,7 @@ This documentation has been created to serve as a centralized knowledge base for
  <td width="25%" align="center"><img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100"/></td>
  <td width="75%">
    <h5>Bharat Tiwari</h5>
-   <h6>JavaScript | ASP.net | Azure</h6>
+   <span>JavaScript | ASP.net | Azure</span>
 
  </td>
 </tr>
