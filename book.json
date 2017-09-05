@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-api", "jsfiddle"], 
+    "plugins": [ "theme-api", "jsfiddle", "styles-sass"], 
     "pluginsConfig": {
         "theme-api": {
             "theme": "dark",
@@ -22,7 +22,11 @@
             "width": "80%",
             "theme": "light",
             "menuColor": "b3cccc"
-       }
+       },
+       "styles": {
+           "website" : "./styles/website.sass",
+            "pdf": "./styles/pdf.sass"
+        }
     }
 }
 
