@@ -24,7 +24,7 @@ This documentation has been created to serve as a centralized knowledge base for
 </tr>
 </table>
 
-<div>
+<div class="jsb-thumbnailList">
   <ul>
     <li>
       <img src="http://lorempixum.com/100/100/nature/1" />
