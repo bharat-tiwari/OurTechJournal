@@ -28,28 +28,23 @@ This documentation has been created to serve as a centralized knowledge base for
   <div>
   <ul>
     <li>
-      <img src="http://lorempixum.com/100/100/nature/1" />
+      <img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100" />
       <h3>Headline</h3>
       <p>Lorem ipsum dolor sit amet.</p>
     </li>
       
     <li>
-      <img src="http://lorempixum.com/100/100/nature/2" />
+      <img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100" />
       <h3>Headline</h3>
       <p>Lorem ipsum dolor sit amet...</p>
     </li>
  
     <li>
-      <img src="http://lorempixum.com/100/100/nature/3" />
+      <img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100" />
       <h3>Headline</h3>
       <p>Lorem ipsum dolor sit amet...</p>
     </li>
- 
-    <li>
-      <img src="http://lorempixum.com/100/100/nature/4" />
-      <h3>Headline</h3>
-      <p>Lorem ipsum dolor sit amet...</p>
-    </li>
+
   </ul>
   </div>
 </div>
