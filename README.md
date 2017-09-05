@@ -3,21 +3,16 @@
 This documentation has been created to serve as a centralized knowledge base for our awesome team where we can jot down and share our learnings of web technologies.
 
 
-# 
-
-||
--------- | -------- |  
-abcs | dcfg |
-
+# Team
 
 <table>
 <tr>
- <td><img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100"/></td>
- <td>hjgjhgjhgjhg</td>
+ <td width="25%"><img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100"/></td>
+ <td width="75%">Bharat Tiwari</td>
 </tr>
 <tr>
- <td></td>
- <td></td>
+ <td width="25%"><img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100"/></td>
+ <td width="75%">Rashmi Tiwari</td>
 </tr>
 </table>
 
