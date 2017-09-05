@@ -19,7 +19,7 @@ This documentation has been created to serve as a centralized knowledge base for
  <td width="75%">
    <h5>Rashmi Tiwari</h5>
    <span>Front-end developer</span>
-   <!-- span>A front-end developer who aspires to awe the world. I ❤ CSS & JavaScript.</span -->
+   <!-- span>A front-end developer who  aspires to awe the world. I ❤ CSS & JavaScript.</span -->
  </td>
 </tr>
 </table>
