@@ -13,11 +13,11 @@ table.noborder td {
  border: 0;
 }
 
-tr.colored-list-green {
+.colored-list-green {
  border-left: 8px solid #99cc00 !important;
 }
 
-tr.colored-list-orange{
+.colored-list-orange {
  border-left: 8px solid #ffcc00 !important;
 }
 
