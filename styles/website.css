@@ -5,9 +5,6 @@ th:empty {
   border: 0;
 }
 
-table.noborder tr {
- border: 0;
-}
 
 table.noborder td {
  border: 0;
