@@ -25,6 +25,7 @@ This documentation has been created to serve as a centralized knowledge base for
 </table>
 
 <div class="jsb-thumbnailList">
+  <div>
   <ul>
     <li>
       <img src="http://lorempixum.com/100/100/nature/1" />
@@ -50,6 +51,7 @@ This documentation has been created to serve as a centralized knowledge base for
       <p>Lorem ipsum dolor sit amet...</p>
     </li>
   </ul>
+  </div>
 </div>
 
 
