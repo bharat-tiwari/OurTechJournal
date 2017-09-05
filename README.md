@@ -3,14 +3,26 @@
 This documentation has been created to serve as a centralized knowledge base for our awesome team where we can jot down and share our learnings of web technologies.
 
 
-# Team
-Item     | dfs
--------- | ---
-Computer | $1600
-Phone    | $12
-Pipe     | $1
+# 
+
+||
+-------- | -------- |  
+abcs | dcfg |
 
 
+<table>
+<tr>
+ <td></td>
+ <td>hjgjhgjhgjhg</td>
+</tr>
+<tr>
+ <td></td>
+ <td></td>
+</tr>
+</table>
+
+
+<!--
 {% method %}
 ## Install {#install}
 
@@ -26,3 +38,6 @@ $ npm install gitbook-api
 $ go get github.com/GitbookIO/go-gitbook-api
 ```
 {% endmethod %}
+
+https://github.com/GitbookIO/theme-api
+-->
