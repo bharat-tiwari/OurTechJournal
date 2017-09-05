@@ -7,11 +7,11 @@ This documentation has been created to serve as a centralized knowledge base for
 
 <table class="noborder">
 <tr>
- <td width="25%"><img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100"/></td>
+ <td width="25%" align="center"><img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100"/></td>
  <td width="75%">Bharat Tiwari</td>
 </tr>
 <tr>
- <td width="25%"><img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100"/></td>
+ <td width="25%" align="center"><img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100"/></td>
  <td width="75%">Rashmi Tiwari</td>
 </tr>
 </table>
