@@ -11,9 +11,12 @@
 * [CSS3 Filter](css3-filter.md)
 * [CSS3 Transitions](methods.md)
 
+## ES6
+
 ## SASS
 
-* [SASS Mixins](sass-scss/sass-mixins.md)
+* [Mixins](sass-scss/sass-mixins.md)
+* Maps
 
 ## Typescript
 
