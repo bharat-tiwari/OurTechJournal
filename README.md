@@ -18,7 +18,7 @@ This documentation has been created to serve as a centralized knowledge base for
  <td width="25%" align="center"><img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100"/></td>
  <td width="75%">
    <h5>Rashmi Tiwari</h5>
-   <h6>A Front-end developer who aspires to awe the world. I ❤ CSS & JavaScript.</h6>
+   <span>A Front-end developer who aspires to awe the world. I ❤ CSS & JavaScript.</span>
  </td>
 </tr>
 </table>
