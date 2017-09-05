@@ -18,5 +18,35 @@ table.noborder td {
  border-left: 8px solid #ffcc00;
 }
 
+.jsb-thumbnailList * {
+  margin: 0;
+  padding: 0;
+}
+.jsb-thumbnailList div {
+  margin: 20px;
+}
+.jsb-thumbnailList ul {
+  list-style-type: none;
+  width: 500px;
+}
+.jsb-thumbnailList h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+.jsb-thumbnailList li {
+  padding: 10px;
+  overflow: auto;
+}
+.jsb-thumbnailList li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+.jsb-thumbnailList li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+.jsb-thumbnailList li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
 
 
