@@ -13,6 +13,8 @@
 
 ## ES6
 
+* [Sets](es6/sets.md)
+
 ## SASS
 
 * [Mixins](sass-scss/sass-mixins.md)
