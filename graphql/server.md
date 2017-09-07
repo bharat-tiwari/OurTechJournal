@@ -18,7 +18,6 @@ type definitions of data models, queries and mutations:
     currentBalance: String
     pastDue: String
     amountDue: String
-    unbilledCharges: String
     currency: String
   }
 `];
