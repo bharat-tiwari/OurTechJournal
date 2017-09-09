@@ -12,12 +12,7 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
 <div class="jsb-thumbnailList">
   <div>
   <ul>
-    <li>
-      <img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100" />
-      <h3>Bharat Tiwari</h3>
-      <p>JavaScript | ASP.net | Azure</p>
-    </li>
-      
+
     <li>
       <img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100" />
       <h3>Rashmi Sharma</h3>
@@ -25,6 +20,13 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
       <!-- span>A front-end developer who  aspires to awe the world. I ❤ CSS & JavaScript.</span -->
       </p>
     </li>
+    
+    <li>
+      <img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100" />
+      <h3>Bharat Tiwari</h3>
+      <p>JavaScript | ASP.net | Azure</p>
+    </li>
+
   </ul>
   </div>
 </div>

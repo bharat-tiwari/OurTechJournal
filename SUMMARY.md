@@ -6,13 +6,14 @@
 
 ## Angular4
 
-* [\*ngIf](angular4/ngif.md)
+* [Builtin Directives](angular4/builtin-directives.md)
+  * [ngIf](angular4/ngif.md)
 
 ## GraphQL
 
-* Introduction
+* [Introduction](graphql/introduction.md)
 * [Server](graphql/server.md)
-* Client Side
+* [Client Side](graphql/client-side.md)
 
 ## CSS
 
