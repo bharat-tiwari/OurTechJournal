@@ -7,7 +7,7 @@
 ## Angular4
 
 * [Builtin Directives](angular4/builtin-directives.md)
-    * [ngIf](angular4/ngif.md)
+  * [ngIf](angular4/ngif.md)
 
 ## GraphQL
 
@@ -23,11 +23,15 @@
 ## ES6
 
 * [Sets](es6/sets.md)
+* Maps
 
 ## SASS
 
 * [Mixins](sass-scss/sass-mixins.md)
-* Maps
+* [Lists](sass-scss/lists.md)
+* [Maps](sass-scss/maps.md)
 
 ## Typescript
+
+* Typeguards
 

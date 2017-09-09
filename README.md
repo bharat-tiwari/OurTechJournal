@@ -2,12 +2,12 @@
 
 This documentation has been created by members of JSified-brains team with a primary purpose of scribbling down our learnings on various Web development technologies that we've learnt while working on our web projects and applications. 
 
-We chose to use Gitbook platform to jot down our notes (along with examples created on JSFiddle whenever possible), for our own easy reference and also to share it online with the community. 
+We chose to use Gitbook platform to jot down our notes (along with examples created on JSFiddle whenever possible), for our own easy-to-find reference and also to share it online with the community. 
 
 The topics under each technology may not be exhaustive, the purpose is not to provide a complete book on any particular topic. Topics are mostly random, anything that any one of us feels worth noting down.
 
 
-# JSified-brains
+# JSified-brains Team
 
 <div class="jsb-thumbnailList">
   <div>
