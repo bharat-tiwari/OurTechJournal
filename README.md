@@ -21,7 +21,7 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
     <li>
       <img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100" />
       <h3>Rashmi Sharma</h3>
-      <p>Front-end developer
+      <p style="margin-top:-5px">Front-end developer
       <!-- span>A front-end developer who  aspires to awe the world. I ❤ CSS & JavaScript.</span -->
       </p>
     </li>
