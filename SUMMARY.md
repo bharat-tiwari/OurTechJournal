@@ -7,7 +7,7 @@
 ## Angular4
 
 * [Builtin Directives](angular4/builtin-directives.md)
-  * [ngIf](angular4/ngif.md)
+    * [ngIf](angular4/ngif.md)
 
 ## GraphQL
 
