@@ -20,15 +20,27 @@ type definitions of data models, queries and mutations:
     amountDue: String
     currency: String
   }
+  
+  // Query(GET) endpoints typedefs go inside the parent type `Query`
+  type Query {
+     accountBalance: AccountBalance
+  }
+  
+  // Mutations(PUT/POST) endpoints typedefs go inside the parent type `Mutation`
+  type Mutation {
+   addChannel(name: String!): Channel
+  }
 `];
 
-export default Balance;
+
  
 ```
 
-## Resolves
+## Resolvers
+
 
 ## Make Executable Schema
+
  
  
  
