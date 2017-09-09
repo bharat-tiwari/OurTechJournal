@@ -1,9 +1,11 @@
 # Introduction
 
-This documentation has been created to serve as a centralized knowledge base for our awesome team where we can jot down and share our learnings of web technologies.
+This documentation has been created by members of JSified-brains team with a primary purpose of scribbling down our learnings on various Web development technologies that we've learnt while working on various web projects and applications. 
+
+We chose to use Gitbook platform to jot down our notes (along with examples created on JSFiddle whenever possible), for our own easy reference and also to share it online with the community. 
 
 
-# Team
+# JSified-brains
 
 <div class="jsb-thumbnailList">
   <div>
@@ -21,9 +23,6 @@ This documentation has been created to serve as a centralized knowledge base for
       <!-- span>A front-end developer who  aspires to awe the world. I ❤ CSS & JavaScript.</span -->
       </p>
     </li>
- 
-
-
   </ul>
   </div>
 </div>
