@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-api", "jsfiddle", "styles-sass"], 
+    "plugins": [ "theme-api", "jsfiddle", "styles-sass", "-highlight", "sunlight-highlighter"], 
     "pluginsConfig": {
         "theme-api": {
             "theme": "dark",
@@ -26,6 +26,10 @@
        "styles": {
            "website" : "./styles/website.sass",
             "pdf": "./styles/pdf.sass"
+        },
+        "sunlight-highlighter": {
+            "theme": "dark",
+            "lineNumber": true
         }
     }
 }

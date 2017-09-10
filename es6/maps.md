@@ -1,16 +1,36 @@
 # ES6 Maps
 
 
-Unlike with objects, map keys can be of any type, even objects or functions. It’s also easy to get the size of a map, while it’s not as straightforward for objects. On top of that, with maps we can iterate in the order in which the values were added, contrary to objects where there’s no guarantee about the order.
-
 A `Map` is a new object type in ES6 that represents a data structure to hold a collection of `key-value` pairs.
 A key in Map can be of any type - any primitive type, symbol, date, object or a function can be a key. Same  holds for the values.
 
-To create a map:
+## Create Map 
 
 ```js
-let 
+// create map
+let coolDude = new Map();
+
+// set key-value pairs for the map
+coolDude.set('wears', ['Red Shirt', 'Green Pant', 'Sunglasses (even in night)']);
+coolDude.set('drives', 'Red Mustang');
+
+// you can chain the set
+coolDude.set('drinks', '7-up')
+        .set('speak', (words: string) => `hey!wazzup!${words}`; 
+        
 ```
+
+### Initialize Map with an array:
+
+```js
+let regExes = new Map([
+  'phoneNumber': new RegEx(),
+  'SSN': new RegEx(),
+  'paymentAmount' : () => 
+
+]);
+```
+
 
 
 
