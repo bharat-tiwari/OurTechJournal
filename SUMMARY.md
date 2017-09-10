@@ -23,7 +23,7 @@
 ## ES6
 
 * [Sets](es6/sets.md)
-* Maps
+* [Maps](es6/maps.md)
 
 ## SASS
 
