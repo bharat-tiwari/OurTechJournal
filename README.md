@@ -1,6 +1,6 @@
 # Introduction
 
-This documentation has been created by members of JSified-brains team with a primary purpose of scribbling down our learnings on various Web development technologies that we've learnt while working on our web projects and applications. 
+This documentation has been created by members of [JSified-brains](https://github.com/jsified-brains) team with a primary purpose of scribbling down our learnings on various Web development technologies that we've learnt while working on [our web projects and applications](https://github.com/jsified-brains). 
 
 We chose to use Gitbook platform to jot down our notes (along with examples created on JSFiddle whenever possible), for our own easy-to-find reference and also to share it online with the community. 
 
@@ -9,6 +9,7 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
 
 # JSified-brains Team
 
+![](/assets/jsifiedBrains.jpg)
 <div class="jsb-thumbnailList">
   <div>
   <ul>
