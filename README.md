@@ -10,7 +10,7 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
 # JSified-brains Team
 
 ![](/assets/jsifiedBrains.jpg)
-<div class="jsb-thumbnailList">
+<!-- div class="jsb-thumbnailList">
   <div>
   <ul>
 
@@ -30,12 +30,18 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
 
   </ul>
   </div>
-</div>
+</div -->
 
 
-> #### info::Title
+> #### info::Rashmi Sharma
+> Full stack JS develper, MEAN stack
 >
-> Rashmi Sharma
+
+> #### info::Bharat Tiwari
+> JavaScript | ASP.net | Azure
+> 
+
+ 
 
 <!--
 {% method %}
