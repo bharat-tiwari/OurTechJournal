@@ -6,7 +6,6 @@ We chose to use Gitbook platform to jot down our notes (along with examples crea
 
 The topics under each technology may not be exhaustive, the purpose is not to provide a complete book on any particular topic. Topics are mostly random, anything that any one of us feels worth noting down.
 
-
 # JSified-brains Team
 
 
@@ -14,12 +13,13 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
 
 > #### info::Rashmi Sharma
 > Full stack JS develper, MEAN stack
+> 
 
-
-
+...
 
 > #### info::Bharat Tiwari
 > JavaScript | ASP.net | Azure
+> 
  
 
 
@@ -32,7 +32,7 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
       <img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100" />
       <h3>Rashmi Sharma</h3>
       <p style="margin-top:-5px">Front-end developer
-      <!-- span>A front-end developer who  aspires to awe the world. I ❤ CSS & JavaScript.</span -->
+      <span>A front-end developer who  aspires to awe the world. I ❤ CSS & JavaScript.</span>
       </p>
     </li>
     
