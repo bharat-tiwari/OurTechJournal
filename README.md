@@ -11,7 +11,17 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
 
 
 <img src="/assets/jsifiedBrains.jpg" alt="Drawing" style="width: 100px;height:100px;"/>
-<!-- div class="jsb-thumbnailList">
+> #### info::Rashmi Sharma
+> Full stack JS develper, MEAN stack
+>
+
+> #### info::Bharat Tiwari
+> JavaScript | ASP.net | Azure
+> 
+
+
+<!--
+<div class="jsb-thumbnailList">
   <div>
   <ul>
 
@@ -31,16 +41,10 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
 
   </ul>
   </div>
-</div -->
+</div>
+-->
 
 
-> #### info::Rashmi Sharma
-> Full stack JS develper, MEAN stack
->
-
-> #### info::Bharat Tiwari
-> JavaScript | ASP.net | Azure
-> 
 
  
 
