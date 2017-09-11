@@ -18,9 +18,7 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
 > 
 
     
-                      
-                      
-
+     <div></div>                 
 
 > #### info::Bharat Tiwari
 > JavaScript | ASP.net | Azure
