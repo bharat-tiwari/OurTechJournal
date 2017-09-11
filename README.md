@@ -17,8 +17,7 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
 > Full stack JS develper, MEAN stack
 > 
 
-    
-     <div></div>                 
+<div></div>                 
 
 > #### info::Bharat Tiwari
 > JavaScript | ASP.net | Azure
