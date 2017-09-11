@@ -11,6 +11,7 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
 
 
 <img src="/assets/jsifiedBrains.jpg" alt="Drawing" style="width: 100px;height:100px;"/>
+
 > #### info::Rashmi Sharma
 > Full stack JS develper, MEAN stack
 >
