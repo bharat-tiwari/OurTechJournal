@@ -9,7 +9,8 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
 
 # JSified-brains Team
 
-![](/assets/jsifiedBrains.jpg)
+
+<img src="/assets/jsifiedBrains.jpg" alt="Drawing" style="width: 100px;height:100px;"/>
 <!-- div class="jsb-thumbnailList">
   <div>
   <ul>
