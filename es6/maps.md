@@ -22,14 +22,9 @@ coolDude.set('drinks', '7-up')
 
 ### Initialize Map with an array:
 
-```js
-let regExes = new Map([
-  'phoneNumber': new RegEx(),
-  'SSN': new RegEx(),
-  'paymentAmount' : () => 
+[JSFiddle Example](https://jsfiddle.net/tiwarib/uh9yL1um/#tabs=result,js,html,css)
 
-]);
-```
+
 
 
 
