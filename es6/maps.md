@@ -16,7 +16,7 @@ coolDude.set('drives', 'Red Mustang');
 
 // you can chain the set
 coolDude.set('drinks', '7-up')
-        .set('speak', (words: string) => `hey!wazzup!${words}`; 
+        .set('speak', (words: string) => `Yo!Wazzup!${words}`; 
         
 ```
 

@@ -33,5 +33,5 @@
 
 ## Typescript
 
-* Typeguards
+* [Typeguards](typescript/typeguards.md)
 

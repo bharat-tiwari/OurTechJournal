@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-api", "jsfiddle", "styles-sass", "-highlight", "sunlight-highlighter"], 
+    "plugins": [ "theme-api", "jsfiddle", "styles-sass", "-highlight", "sunlight-highlighter", "bootstrap-callout"], 
     "pluginsConfig": {
         "theme-api": {
             "theme": "dark",
