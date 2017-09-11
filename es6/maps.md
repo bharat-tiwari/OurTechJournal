@@ -22,6 +22,8 @@ coolDude.set('drinks', '7-up')
 
 ### Initialize Map with an array:
 
+The following JSFiddle creates a Map of few commonly needed regular expression , like for phone number or email address, initialized with an array. The react component uses this map to validate values entered in email or phone fields.
+
 [JSFiddle Example](https://jsfiddle.net/tiwarib/uh9yL1um/#tabs=result,js,html,css)
 
 
