@@ -6,6 +6,12 @@ We chose to use Gitbook platform to jot down our notes (along with examples crea
 
 The topics under each technology may not be exhaustive, the purpose is not to provide a complete book on any particular topic. Topics are mostly random, anything that any one of us feels worth noting down.
 
+{% grid %}
+  {% col 3 %} This is 3 flex units wide.
+  {% col 2 %} This is 2 flex units wide.
+  {% col 5 %} This is 5 flex units wide.
+{% endgrid %}
+
 # JSified-brains Team
 
 
@@ -15,7 +21,8 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
 > Full stack JS develper, MEAN stack
 > 
 
-...
+and
+
 
 > #### info::Bharat Tiwari
 > JavaScript | ASP.net | Azure
