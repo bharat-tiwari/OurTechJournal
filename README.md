@@ -12,13 +12,14 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
   {% col 3 %} <img src="/assets/jsifiedBrains.jpg" alt="Drawing" style="width: 100px;height:100px;"/>
 {% endgrid %}
 
-___
 
 > #### info::Rashmi Sharma
 > Full stack JS develper, MEAN stack
 > 
 
-___
+    
+                      
+                      
 
 
 > #### info::Bharat Tiwari
