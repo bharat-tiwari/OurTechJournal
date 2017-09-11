@@ -6,18 +6,19 @@ We chose to use Gitbook platform to jot down our notes (along with examples crea
 
 The topics under each technology may not be exhaustive, the purpose is not to provide a complete book on any particular topic. Topics are mostly random, anything that any one of us feels worth noting down.
 
+---
 {% grid %}
-  {% col 9 %} # JSified-brains Team
+  {% col 9 %} <h1>JSified-brains Team</h1>
   {% col 3 %} <img src="/assets/jsifiedBrains.jpg" alt="Drawing" style="width: 100px;height:100px;"/>
 {% endgrid %}
 
-
+___
 
 > #### info::Rashmi Sharma
 > Full stack JS develper, MEAN stack
 > 
 
-and
+___
 
 
 > #### info::Bharat Tiwari
