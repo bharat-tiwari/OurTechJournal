@@ -28,6 +28,7 @@
             "pdf": "./styles/pdf.sass"
         },
         "sunlight-highlighter": {
+            "theme": "dark",
             "lineNumber": true
         }
     }

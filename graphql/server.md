@@ -12,7 +12,7 @@ type definitions of data models, queries and mutations:
  - are written in [GraphQL Schema Language](http://graphql.org/learn/schema/). 
  - are first written in a templated string format (within a pair of backticks (\`...`)
  
-```js
+```javascript
  const typeDefs = [`
   type UserDetails {
     id: String
@@ -37,7 +37,7 @@ type definitions of data models, queries and mutations:
 
 ## Resolvers
 
-```js
+```javascript
 const resolvers = {
   Query: {
     UserDetails ({ id }, context) {
@@ -71,7 +71,7 @@ const resolvers = {
 ## Make Executable Schema
 Once you have typeDefs and Resolvers set up, you make a executable schema that GraphQL can execute using the `graphql-tools's` `makeExecutableSchema` function:
 
-```js
+```javascript
 
 // schema.ts
 
@@ -84,7 +84,7 @@ const schema = makeExecutableSchema({ typeDefs, resolvers });
 ## Set up Express to use graphQLExpress middleware
 Once we have our executable schema ready, we can provide it to graphQLExpress to set it as a middleware for our node Express server:
 
-```js
+```javascript
 server.use('/graphql', bodyParser.json(), graphqlExpress({
   schema
 }));
