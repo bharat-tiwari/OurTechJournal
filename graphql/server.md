@@ -14,21 +14,20 @@ type definitions of data models, queries and mutations:
  
 ```js
  const typeDefs = [`
-  type AccountBalance {
-    currentBalance: String
-    pastDue: String
-    amountDue: String
-    currency: String
+  type UserDetails {
+    id: String
+    name: String
+    email: String
   }
   
   // Query(GET) endpoints typedefs go inside the parent type `Query`
   type Query {
-     accountBalance: AccountBalance
+     UserDetails: UserDetails
   }
   
   // Mutations(PUT/POST) endpoints typedefs go inside the parent type `Mutation`
   type Mutation {
-   addChannel(name: String!): Channel
+   UserEmail(id: String!, email: String!): Channel
   }
 `];
 
@@ -38,8 +37,65 @@ type definitions of data models, queries and mutations:
 
 ## Resolvers
 
+```js
+const resolvers = {
+  Query: {
+    UserDetails ({ id }, context) {
+       return request('GET')
+         .from(await route(`user/${id}`))
+         .send<{ UserDetails }>()
+         .then((res) => res.data.user)
+         .catch((err) => {
+            // throw error
+       });
+    }
+  },
+  Mutation: {
+    UserEmail: (args) => {
+    
+      { id, email } = args;
+      const res = request('PUT')
+                 .from(`user/${id}`)
+                 .withData({email})
+                 .send();
+      return {
+        ...res.data.email,
+        id: id
+      };
+   }
+  },
+};
+```
+
 
 ## Make Executable Schema
+Once you have typeDefs and Resolvers set up, you make a executable schema that GraphQL can execute using the `graphql-tools's` `makeExecutableSchema` function:
+
+```js
+
+// schema.ts
+
+import typeDefs from './schema';
+import resolvers from './resolvers';
+
+const schema = makeExecutableSchema({ typeDefs, resolvers });
+```
+
+## Set up Express to use graphQLExpress middleware
+Once we have our executable schema ready, we can provide it to graphQLExpress to set it as a middleware for our node Express server:
+
+```js
+server.use('/graphql', bodyParser.json(), graphqlExpress({
+  schema
+}));
+
+//also set up the endpoint for the `GraphiQL` query editor tool:
+server.use('/graphiql', graphiqlExpress({
+  endpointURL: '/graphql'
+}));
+```
+
+This is server side setup for GraphQL in brief. Next we'll set the client side setup needed for GraphQL
 
  
  
