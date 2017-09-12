@@ -10,7 +10,11 @@ With GraphQL:
 
 # References
 http://graphql.org/blog/rest-api-graphql-wrapper/
+
 https://dev-blog.apollodata.com/full-stack-react-graphql-tutorial-582ac8d24e3b
+
 https://www.howtographql.com/
+
 http://graphql.org/learn/schema/
+
 http://dev.apollodata.com/react/
