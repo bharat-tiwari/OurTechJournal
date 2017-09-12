@@ -6,8 +6,10 @@
 
 ## Angular4
 
+* [Change Detection](angular4/change-detection.md)
 * [Builtin Directives](angular4/builtin-directives.md)
   * [ngIf](angular4/ngif.md)
+* [AOT Compilation](angular4/aot-compilation.md)
 
 ## GraphQL
 
