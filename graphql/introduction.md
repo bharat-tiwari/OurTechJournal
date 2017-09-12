@@ -8,3 +8,9 @@ With GraphQL:
 - its easy to aggregate data from multiple sources with just one call compared to multiple calls that may be needed with REST 
 
 
+# References
+http://graphql.org/blog/rest-api-graphql-wrapper/
+https://dev-blog.apollodata.com/full-stack-react-graphql-tutorial-582ac8d24e3b
+https://www.howtographql.com/
+http://graphql.org/learn/schema/
+http://dev.apollodata.com/react/

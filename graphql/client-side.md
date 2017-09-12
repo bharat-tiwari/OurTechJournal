@@ -7,7 +7,7 @@ For our front-end React application to communicate to GraphQL server, we first s
 
 ```js
 
-imports....
+// imports....
 import { ApolloClient, createNetworkInterface } from 'apollo-client';
 
 const networkInterface = createNetworkInterface({
