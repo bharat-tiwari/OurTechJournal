@@ -45,7 +45,7 @@ import { routes } from './photos.routes';
   ],
   declarations: [PhotosGrid, PhotoDetails]
 })
-export class LegalModule { }
+export class PhotosModule { }
 ```
 
 Note the use of `RouterModule's` `forChild` method above.
