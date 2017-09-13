@@ -8,8 +8,9 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
 
 ---
 {% grid %}
-  {% col 9 %} <h1>JSified-brains Team</h1>
+  {% col 9 %} <h1>Authors</h1>
   {% col 3 %} <img src="/assets/jsifiedBrains.jpg" alt="Drawing" style="width: 100px;height:100px;"/>
+  
 {% endgrid %}
 
 
@@ -40,6 +41,7 @@ The topics under each technology may not be exhaustive, the purpose is not to pr
     
     <li>
       <img src="http://socialeum.com/71-large_default/1000-google-followers.jpg" height="100" width="100" />
+      
       <h3>Bharat Tiwari</h3>
       <p>JavaScript | ASP.net | Azure</p>
     </li>

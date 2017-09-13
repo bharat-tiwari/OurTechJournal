@@ -1,5 +1,5 @@
 # Change Detection:
-Its the feature of Angular 2/4 that can precisely detect any change in the state of the application at any given point of time and get it reflected on the UI by updating the DOM.
+Change detection is a feature of javascript framework that can precisely detect any change in the state of the application at any given point of time and get it reflected on the UI by updating the DOM.
 
 ReactJS uses Redux to keep track of state of the application and updates the Virtual DOM which gets reflected on the UI. React uses the concept of diffing the DOM of the new state vs the previous state and only renders the difference.
 
