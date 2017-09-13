@@ -17,6 +17,10 @@ All of the above are asynchronous. This means, basically whenever some asynchron
 ## Who notifies Angular of the state change?
 - Zones
 
+ZoneJS allows you to create a zone , a kind of execution context, within which you can run your code and also configure some events like onZoneEnter, onZoneLeave etc.
+
+This is good for things like debugging or profiling like measuring time for you code execution etc.
+
 Angular uses its own zone API - called NgZone.
 
 Angular has a class called `ApplicationRef` , which is like a reference to the Application state. It keeps listening to NgZone's `OnTurnDone` event. When this event is fired, a method called `tick()` is called. Inside the `tick()` method, Angular loops through each of the `changeDetectorRefs` in the application and calls its `detectChanges()` method.
