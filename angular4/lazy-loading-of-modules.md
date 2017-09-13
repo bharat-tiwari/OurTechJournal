@@ -75,7 +75,7 @@ const ROUTES: Route[] = [
   declarations: [
     AppComponent,
     LoginComponent,
-    HomeComponent
+    AlbumComponent
   ],
   imports: [
     ...
