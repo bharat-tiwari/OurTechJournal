@@ -19,7 +19,7 @@ With AOT, the Angular code is pre-compiled on the server side at the time of bui
 
 https://stackoverflow.com/a/41744331 
 
-| JIT | AOT|
+| JIT | AOT |
 |------|------|
 |- Compile TypeScript just in time for executing it.<br>- Compiled in the browser.<br>- Each file compiled separately.<br>- No need to build after changing your code and before reloading the browser page.<br>- Suitable for local development.| - Compile TypeScript during build phase.<br>- Compiled by the machine itself, via the command line (Faster).<br>- All code compiled together, inlining HTML/CSS in the scripts.<br>- No need to deploy the compiler (Half of Angular size).<br>- More secure, original source not disclosed.<br>- Suitable for production builds.|
 
