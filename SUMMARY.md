@@ -4,7 +4,7 @@
 
 * [Introduction](README.md)
 
-## Angular4
+## Angular 4
 
 * [Change Detection](angular4/change-detection.md)
 * [Lazy Loading of modules](angular4/lazy-loading-of-modules.md)
