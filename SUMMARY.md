@@ -8,11 +8,11 @@
 
 * [Change Detection](angular4/change-detection.md)
 * [Lazy Loading of modules](angular4/lazy-loading-of-modules.md)
+* [AOT Compilation](angular4/aot-compilation.md)
 * [Builtin Directives](angular4/builtin-directives.md)
   * [ngIf](angular4/ngif.md)
   * ngFor
   * ngSwitch
-* [AOT Compilation](angular4/aot-compilation.md)
 
 ## GraphQL
 
