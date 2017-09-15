@@ -9,6 +9,8 @@
 * [Change Detection](angular4/change-detection.md)
 * [Lazy Loading of modules](angular4/lazy-loading-of-modules.md)
 * [AOT Compilation](angular4/aot-compilation.md)
+* [Shared Modules](angular4/shared-modules.md)
+* [Tree Shaking](angular4/tree-shaking.md)
 * [Builtin Directives](angular4/builtin-directives.md)
   * [ngIf](angular4/ngif.md)
   * ngFor
@@ -39,4 +41,5 @@
 ## Typescript
 
 * [Typeguards](typescript/typeguards.md)
+* [Pattern Matching with Typescript](typescript/pattern-matching-with-typescript.md)
 
