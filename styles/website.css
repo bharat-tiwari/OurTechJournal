@@ -48,8 +48,8 @@ table.noborder td {
   font: 200 12px/1.5 Georgia, Times New Roman, serif;
 }
 .book-summary ul.summary li.header {
-  background-color: #000;
-  color: #b2cecf !important;
+  background-color: #ff8000;
+  color: #000 !important;
 }
 
 
