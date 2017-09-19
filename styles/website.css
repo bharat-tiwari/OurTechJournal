@@ -47,7 +47,7 @@ table.noborder td {
 .jsb-thumbnailList li p {
   font: 200 12px/1.5 Georgia, Times New Roman, serif;
 }
-li.header {
+.book-summary ul.summary li.header {
   backgroud-color: #888 !important;
 }
 
