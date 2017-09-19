@@ -48,7 +48,7 @@ table.noborder td {
   font: 200 12px/1.5 Georgia, Times New Roman, serif;
 }
 li.class {
-  backgroud-color: #888;
+  backgroud-color: #888 !important;
 }
 
 
