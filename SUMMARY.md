@@ -43,3 +43,21 @@
 * [Typeguards](typescript/typeguards.md)
 * [Pattern Matching with Typescript](typescript/pattern-matching-with-typescript.md)
 
+## Javascript
+
+* 'this' keyword
+* [Closures](javascript/closures.md)
+* Prototypical Inheritance
+* use strict
+* NaN
+* typeof
+* prototypeOf
+* Promise
+
+## Web
+
+* http / https
+* CORS
+
+## NodeJS
+
