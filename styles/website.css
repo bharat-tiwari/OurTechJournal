@@ -52,12 +52,9 @@ table.noborder td {
   color: #00ccff !important;
 }
 
-.book-summary ul.summary li:has(a[href$='our-tech-journal']) {
-  display:none !important;
-}
-
 .book-summary ul.summary li:first-child { 
-    background-color: yellow;
+    display:none !important;
+
 }
 
 
