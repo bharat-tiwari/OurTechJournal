@@ -45,7 +45,7 @@
 
 ## Javascript
 
-* 'this' keyword
+* ['this' keyword](javascript/this-keyword.md)
 * [Closures](javascript/closures.md)
 * Prototypical Inheritance
 * use strict
