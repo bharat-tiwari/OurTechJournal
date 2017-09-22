@@ -10,7 +10,7 @@ In javascript, when a function is invoked
   **'this' **could be pointing to different objects depending on how the function has been invoked.
   
   
-  1. When used in global scop, `this` points to `window` object
+  1. When used in global scope, `this` points to `window` object
   2. When used inside a function statement or expression defined in global scope, `this` points to `window` object
   3. When used in a function defined inside an object - `this` points to the  object
   4. When used in a function nested inside a function defined inside an object - `this` points to `window` object. This is little weird. As a workaround for this, many developers define another variable usually named `that` or `self` in the parent function and assign it to `this`. Then use `that`/`self` in the nested function instead of `this`.
