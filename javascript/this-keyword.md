@@ -5,7 +5,7 @@ In javascript, when a function is invoked
   - the 'execution context' has a reference to its 'outer environment'
   - if the function code uses a variable which is not declared inside the function, then it can look for it in its 'outer environment'. If that 'outer environment' is another parent function and doesn't have the variable, the code can look for the variable further next level of outer environment until it reaches the global environment. 
   
-  Every time javascript creates an 'execution context', it automatically creates a variable called **'this'**. 
+ - Every time javascript creates an 'execution context', it automatically creates a variable called **'this'**. 
   
   **'this' **could be pointing to different objects depending on how the function has been invoked.
   
