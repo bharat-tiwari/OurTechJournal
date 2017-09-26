@@ -50,8 +50,8 @@
 * Prototypical Inheritance
 * use strict
 * NaN
-* typeof
-* prototypeOf
+* [typeof vs instanceof](javascript/typeof-vs-instanceof.md)
+* instanceof
 * Promise
 
 ## Web
