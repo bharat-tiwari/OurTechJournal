@@ -17,7 +17,7 @@ instance instanceof ClassFirst; //true
 instance instanceof ClassSecond; //false 
 ```
 
-Use typeof for simple built in types:
+##Use `typeof` for simple built in types:
 
 ```
 'example string' instanceof String; // false
@@ -36,7 +36,7 @@ function() {} instanceof Function; //true
 typeof function() {} == 'function'; //true
 ```
 
-Use instanceof for complex built in types:
+##Use `instanceof` for complex built in types:
 
 ```
 /regularexpression/ instanceof RegExp; // true
