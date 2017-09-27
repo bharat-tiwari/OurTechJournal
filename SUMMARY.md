@@ -51,12 +51,12 @@
 * use strict
 * NaN
 * [typeof vs instanceof](javascript/typeof-vs-instanceof.md)
-* instanceof
 * Promise
+* [localStorage and SessionStorage](javascript/localstorage-and-sessionstorage.md)
 
 ## Web
 
-* http / https
+* [http / https](web/http-https.md)
 * CORS
 
 ## NodeJS
