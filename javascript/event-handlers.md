@@ -30,8 +30,8 @@
 #Event Object
 On occurrence of an event, the browser would create an `Event` object and pass it as first argument to the event handler function. This `Event` object carries details of the event, it would have properties depending on the type of the event, below are some common properties
     * `type` : type of the event - `click` or `keyup` or `mouseout` etc
-    * `target`: target element of the event - element on which event is happening 
-    * `currentTarget`: element that has the eventHandler attached to
+    * `target`: [See in event bubbling]() 
+    * `currentTarget`: [See in event bubbling]() 
     * `clientX/clientY`: pixel coordinates of the mouse position that triggered the event if its a mouse event.
         
         
