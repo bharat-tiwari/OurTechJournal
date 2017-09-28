@@ -53,6 +53,7 @@
 * [typeof vs instanceof](javascript/typeof-vs-instanceof.md)
 * Promise
 * [localStorage and SessionStorage](javascript/localstorage-and-sessionstorage.md)
+* [Event handlers](javascript/event-handlers.md)
 
 ## Web
 
