@@ -25,11 +25,11 @@ https://stackoverflow.com/a/41744331
 
 ## AOT Benefits
 
-**Smaller Application JS Bundle size** = less burden on network, application can perform good even in low network latency like for mobile or IOT devices
-**Faster rendering** : precompiled code saves browser's time on compiling the application
-**Fewer asynchronous requests**: AOT would inline the HTML templates/CSS within the application javascript bundle, this would save browser from making additional ajax requests to get those resources.
-**Template errors get detected earlier** : With AOT, any errors in the template bindings would get detected at the time of building process by the AOT compiler before user sees those.
-**More secured** : AOT compiles HTML templates and components into JavaScript files long before they are served to the client. With no templates to read and no risky client-side HTML or JavaScript evaluation, there are fewer opportunities for injection attacks.
+- **Smaller Application JS Bundle size** = less burden on network, application can perform good even in low network latency like for mobile or IOT devices
+- **Faster rendering** : precompiled code saves browser's time on compiling the application
+- **Fewer asynchronous requests**: AOT would inline the HTML templates/CSS within the application javascript bundle, this would save browser from making additional ajax requests to get those resources.
+- **Template errors get detected earlier** : With AOT, any errors in the template bindings would get detected at the time of building process by the AOT compiler before user sees those.
+- **More secured** : AOT compiles HTML templates and components into JavaScript files long before they are served to the client. With no templates to read and no risky client-side HTML or JavaScript evaluation, there are fewer opportunities for injection attacks.
 
 
 ## How to compile with AOT

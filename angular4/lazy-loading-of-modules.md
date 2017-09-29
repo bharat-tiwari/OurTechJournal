@@ -1,6 +1,6 @@
 #Lazy Loading of modules
 
-In Angular 2 / 4, you can divide the various functionalities / features of your application into modules. Taking the example of our Photo Albums application, Home page/view , where we show the albums of the user, could be the default/too module. The 'Photos' view, that shows photos inside an album doesn't need to be loaded from the starting of the app, it could be loaded lazily later when user selects an album. We can wrap all the components needed for Photos view in a child module of the app's root module . Similarly, the 'User Settings' component could be wrapped in a separate child module. 
+In Angular 2 / 4, you can divide the various functionalities / features of your application into modules. Taking the example of our Photo Albums application, Home page/view , where we show the albums of the user, could be the default/root module. The 'Photos' view, that shows photos inside an album doesn't need to be loaded from the starting of the app, it could be loaded lazily later when user selects an album. We can wrap all the components needed for Photos view in a child module of the app's root module . Similarly, the 'User Settings' component could be wrapped in a separate child module. 
 And then we can configure our Router to load Photos and User Settings modules lazily.
 
 This helps to bring down the initial size of the application bundle thereby improving performance of the application.
