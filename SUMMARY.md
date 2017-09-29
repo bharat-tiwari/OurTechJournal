@@ -55,6 +55,7 @@
 * [localStorage and SessionStorage](javascript/localstorage-and-sessionstorage.md)
 * [Event handlers](javascript/event-handlers.md)
 * [Event bubbling](javascript/event-bubbling.md)
+* [Event Delegation](javascript/event-delegation.md)
 
 ## Web
 

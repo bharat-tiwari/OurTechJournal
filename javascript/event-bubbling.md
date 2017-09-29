@@ -11,6 +11,12 @@ points to current target element in the event-bubble path whose eventHandler is 
 # How to stop event from bubbling up
 User `event.stopPropogation`
 
-It would stop the current event from bubbling up in the bubble path.
-To stop
+It would stop the current event from bubbling up to the parents
+
+If there are multiple eventHandlers for a given event on an element, `event.stopPropogation` called from any of the eventHandlers would stop the event bubbling up to the parents.
+
+ However, for the current target, all other event handlers would continue to run. 
+ If you want to stop the other running event handlers as well for the current target, call the method `event.stopImmediatePropogation`
+
+ 
 
