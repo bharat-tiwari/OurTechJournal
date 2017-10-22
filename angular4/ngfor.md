@@ -32,12 +32,22 @@ The above code will yield something like below:
 
 ```js
 <ul>
-  <li *ngFor="let item of cafeMenu; let i = index; let isOdd = odd" [class.oddRow]="isOdd">
+  <li *ngFor="let item of cafeMenu; let i=index; let isOdd=odd; let isEven=even" [class.oddRow]="isOdd"  [class.evenRow]="isEven" >
     {{i + 1}}. {{ item.name }}
   </li>
 </ul>
 ```
 
+This will generate HTML like below:
+
+```html
+<ul>
+  <li class="evenRow">1. Tea</li>
+  <li class="oddRow">2. Coffee</li>
+  <li class="evenRow">3. Latte</li>
+  <li class="oddRow">4. Mocha</li>
+</ul>
+```
 
 
 
