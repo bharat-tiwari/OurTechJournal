@@ -14,7 +14,7 @@
 * [Builtin Directives](angular4/builtin-directives.md)
   * [ngFor](angular4/ngfor.md)
   * [ngSwitch](angular4/ngswitch.md)
-  * [ngIf directive](angular4/ngif-directive.md)
+  * [ngIf](angular4/ngif-directive.md)
 * [Data Binding in Angular 2/4](angular4/data-binding-in-angular-24.md)
 
 ## GraphQL
