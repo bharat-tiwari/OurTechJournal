@@ -2,13 +2,14 @@
 
 ## One-way binding - from JS(Component) to HTML
 
-<div class="maroon">Interpolation</div>
+<div class="maroon h3">Interpolation</div>
+
 ```js
 <h1>{{pageTitle}}</h1>
 ```
 
 
-<div class="maroon">Property Binding</div>
+<div class="maroon h3">Property Binding</div>
 
 
 ```js
@@ -18,7 +19,7 @@
 
 ## One-way binding  - from HTML To JS(Component)
 
-<div class="maroon">Event Binding</div>
+<div class="maroon h3">Event Binding</div>
 
 ```js
 <button (click)="onLoginClick">Login</button>
