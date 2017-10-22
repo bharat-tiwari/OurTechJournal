@@ -15,6 +15,7 @@
   * [ngIf](angular4/ngif.md)
   * ngFor
   * ngSwitch
+* [Data Binding in Angular 2/4](angular4/data-binding-in-angular-24.md)
 
 ## GraphQL
 
