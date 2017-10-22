@@ -15,7 +15,6 @@
 <input type="number" [value]="payment.amount" />
 ```
 
-
 ## One-way binding  - from HTML To JS(Component)
 
 ### Event Binding
