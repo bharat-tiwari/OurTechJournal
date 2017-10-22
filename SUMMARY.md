@@ -66,6 +66,5 @@
 
 ## REACT
 
-* Routing
-* Routing - React Router 4
+* [Routing - React Router 4](javascript/routing-react-router-4.md)
 
