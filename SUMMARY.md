@@ -17,7 +17,7 @@
   * [ngIf](angular4/ngif-directive.md)
   * [ngFor directive](angular4/ngfor-directive.md)
 * [Data Binding in Angular 2/4](angular4/data-binding-in-angular-24.md)
-* [Handling inner contents with ngContent ](angular4/handling-inner-contents-with-ngcontent.md)
+* [ng-content to render inner contents](angular4/handling-inner-contents-with-ngcontent.md)
 
 ## GraphQL
 
