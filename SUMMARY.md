@@ -13,7 +13,7 @@
 * [Tree Shaking](angular4/tree-shaking.md)
 * [Builtin Directives](angular4/builtin-directives.md)
   * [ngIf](angular4/ngif.md)
-  * ngFor
+  * [ngFor](angular4/ngfor.md)
   * ngSwitch
 * [Data Binding in Angular 2/4](angular4/data-binding-in-angular-24.md)
 
