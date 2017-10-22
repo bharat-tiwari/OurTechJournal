@@ -12,9 +12,9 @@
 * [Shared Modules](angular4/shared-modules.md)
 * [Tree Shaking](angular4/tree-shaking.md)
 * [Builtin Directives](angular4/builtin-directives.md)
-  * [ngIf](angular4/ngif.md)
   * [ngFor](angular4/ngfor.md)
   * [ngSwitch](angular4/ngswitch.md)
+  * [ngIf](angular4/ngif.md)
 * [Data Binding in Angular 2/4](angular4/data-binding-in-angular-24.md)
 
 ## GraphQL
