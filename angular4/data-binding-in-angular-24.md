@@ -2,13 +2,14 @@
 
 ## One-way binding - from JS(Component) to HTML
 
-#### Interpolation
+<div class="maroon">Interpolation</div>
 ```js
 <h1>{{pageTitle}}</h1>
 ```
 
 
-#### One-way Property Binding
+<div class="maroon">Property Binding</div>
+
 
 ```js
 <img [src]="imageLink">
@@ -17,6 +18,14 @@
 
 ## One-way binding  - from HTML To JS(Component)
 
-### Event Binding
+<div class="maroon">Event Binding</div>
+
+```js
+<button (click)="onLoginClick">Login</button>
+```
+
 
 ## Two-way Binding
+```js
+<input type="text" [(ngModel)]="email" />
+```

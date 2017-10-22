@@ -54,7 +54,10 @@ table.noborder td {
 
 .book-summary ul.summary li:first-child { 
     display:none !important;
+}
 
+.maroon{
+  color: #800000 !important;
 }
 
 
