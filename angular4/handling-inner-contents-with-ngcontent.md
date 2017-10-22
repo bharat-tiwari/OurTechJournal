@@ -26,7 +26,7 @@ The above component can then be used in views as below:
 
 ```html
 <header title="Settings">
-  <image src="images/logo.png" />
+  <img src="images/logo.png" />
 </header>
 ```
 
@@ -35,9 +35,58 @@ The above will render the header component HTML as below:
 ```html
 <div>
 <h1>{{title}}</h1>
-<image src="images/logo.png" />
+<img src="images/logo.png" />
 </div>
 ```
+
+
+You can also pick and choose where to render which part of the inner content using the content's tag or attribute value:
+
+```js
+@Component({
+  selector: 'header',
+  template: `
+    <div>
+      <h1>{{title}}</h1>
+      <container>
+       <row>
+         <col xs="3">
+           <ng-content select="img"></ng-content>
+         </col>
+         <col>
+           <span> {{title}}</span>
+         <col>
+         <col>
+           <ng-content select="[viewIcon]"></ng-content>
+         </col>
+      
+      <container>
+    </div>
+  `
+})
+class HeaderComponent {
+...
+}
+```
+
+
+Then use the above `header` component to render the title, logo and view icon as below:
+
+
+```html
+<header title="Settings">
+  <img src="images/logo.png" />
+  <i class="fa fa-cog" viewIcon aria-hidden="true"></i>
+</header>
+```
+
+
+
+
+
+
+
+
 
 
 
