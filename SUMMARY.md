@@ -18,7 +18,7 @@
   * [ngFor directive](angular4/ngfor-directive.md)
 * [Data Binding in Angular 2/4](angular4/data-binding-in-angular-24.md)
 * [ng-content to render inner contents](angular4/handling-inner-contents-with-ngcontent.md)
-* [Pipes](angular4/pipes.md)
+* [Pipes in Angular 2+](angular4/pipes.md)
 
 ## GraphQL
 
