@@ -74,6 +74,13 @@ to see the contents which are beyond the visible screen area   */
 ```
 
 
+Also note, usually, we add below `viewport` <meta> tag in the header of our page HTML to have it respond to device screen size on phones or tablet:
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+This tells the device that the content of the web page needs to be equal to the device width and keep the contents initial scale to 100% and do not scale it up or down.
 
 
  
