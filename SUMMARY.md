@@ -19,6 +19,8 @@
 * [Data Binding in Angular 2/4](angular4/data-binding-in-angular-24.md)
 * [ng-content to render inner contents](angular4/handling-inner-contents-with-ngcontent.md)
 * [Pipes in Angular 2+](angular4/pipes.md)
+* Some Useful Decorators
+  * [@ViewChild](angular4/viewchild.md)
 
 ## GraphQL
 
