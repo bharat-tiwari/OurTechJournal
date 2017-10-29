@@ -32,6 +32,7 @@
 
 * [CSS3 Filter](css3-filter.md)
 * [CSS3 Transitions](methods.md)
+* [Media Queries](media-queries.md)
 
 ## ES6
 
