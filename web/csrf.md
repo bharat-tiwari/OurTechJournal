@@ -13,19 +13,19 @@ To avoid CSRF, ASP.net MVC uses `AntiForgeryToken` that can be added to a form w
         Amount: <input type="text" name="Amount" value="" /><br />
         To Account: <input type="text" name="Account" value="" /><br />
     <input type="submit" value="Transfer Money" />
-    @Html.AntiForgeryToken()
+    @Html.AntiForgeryToken("someSecretKey1")
     </div>
     ...
 ```
 
         
 
-The MVC controller action that processes the request can be decorated with `[ValidateAntiForgeryToken(salt="somesecretkey1")]` decorator:
+The MVC controller action that processes the request can be decorated with `[ValidateAntiForgeryToken(salt="someSecretKey1")]` decorator:
 
 ```cs
     class MoneyTransactionController: Controller 
     {
-    
+        [ValidateAntiForgeryToken(
         public ActionResult Transfer()
         {
             //business logic to handle money transfer
@@ -34,3 +34,4 @@ The MVC controller action that processes the request can be decorated with `[Val
     
     }
 ```
+
