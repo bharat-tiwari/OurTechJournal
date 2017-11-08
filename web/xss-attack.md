@@ -35,7 +35,7 @@ And in case you want to allow HTML for some specific field in a form instead of 
 ```cs
 namespace MyMVCApplication.Models 
 {
-    public class Algorithm
+    public class CodeSample
     {
         public string SubmittedBy { get; set; }
         
