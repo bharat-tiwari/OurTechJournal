@@ -69,6 +69,7 @@
 * [http / https](web/http-https.md)
 * [CORS](web/cors.md)
 * [CSRF](web/csrf.md)
+* [XSS Attack](web/xss-attack.md)
 
 ## NodeJS
 
