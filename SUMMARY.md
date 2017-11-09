@@ -21,6 +21,7 @@
 * [Pipes in Angular 2+](angular4/pipes.md)
 * Some Useful Decorators
   * [@ViewChild](angular4/viewchild.md)
+* [upgrading from Angular 1.x to Angular 4](angular4/upgrading-from-angular-1x-to-angular-4.md)
 
 ## GraphQL
 
