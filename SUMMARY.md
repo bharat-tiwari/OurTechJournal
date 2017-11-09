@@ -8,6 +8,7 @@
 
 * [Change Detection](angular4/change-detection.md)
 * [Lazy Loading of modules](angular4/lazy-loading-of-modules.md)
+* [Preloading](angular4/preloading.md)
 * [AOT Compilation](angular4/aot-compilation.md)
 * [Shared Modules](angular4/shared-modules.md)
 * [Tree Shaking](angular4/tree-shaking.md)
@@ -19,9 +20,6 @@
 * [Data Binding in Angular 2/4](angular4/data-binding-in-angular-24.md)
 * [ng-content to render inner contents](angular4/handling-inner-contents-with-ngcontent.md)
 * [Pipes in Angular 2+](angular4/pipes.md)
-* Some Useful Decorators
-  * [@ViewChild](angular4/viewchild.md)
-* [upgrading from Angular 1.x to Angular 4](angular4/upgrading-from-angular-1x-to-angular-4.md)
 
 ## GraphQL
 
