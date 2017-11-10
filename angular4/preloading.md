@@ -15,7 +15,6 @@ import { Route, RouterModule, PreloadAllModules } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LoginComponent } from '../login';
 import { HomeComponent } from '../home';   
-import { PhotoComponent } from '../photo';
 import { PhotoService, UserService } from '../../services';
 
 
@@ -23,15 +22,14 @@ import { PhotoService, UserService } from '../../services';
 const ROUTES: Route[] = [
   { path: '', component: LoginComponent},
   { path: 'home', component: HomeComponent},
-  { path: 'photo/:albumId', component: PhotoComponent}
+  { path: 'photos', loadChildren: './photos/photos.module#PhotosModule' }
 ]
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    HomeComponent,
-    PhotoComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -46,3 +44,7 @@ const ROUTES: Route[] = [
 })
 export class AppModule { }
 ```
+
+With `PreloadAllModules` strategy used above, all the lazy-loaded modules would be 'preloaded' thereby saving us from the bit of network latency that lazy-loading would have costed us. 
+
+If you want to have some selected modules, that are not usually used by the user, still lazy-loaded , some custom configuration can be used for configuring few modules to be preloading and few to be lazy-loading.

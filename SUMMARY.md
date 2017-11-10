@@ -10,6 +10,7 @@
 * [Lazy Loading of modules](angular4/lazy-loading-of-modules.md)
 * [Preloading](angular4/preloading.md)
 * [AOT Compilation](angular4/aot-compilation.md)
+* [Route Guards](angular4/route-guards.md)
 * [Shared Modules](angular4/shared-modules.md)
 * [Tree Shaking](angular4/tree-shaking.md)
 * [Builtin Directives](angular4/builtin-directives.md)
@@ -19,7 +20,6 @@
   * [ngFor directive](angular4/ngfor-directive.md)
 * [Data Binding in Angular 2/4](angular4/data-binding-in-angular-24.md)
 * [ng-content to render inner contents](angular4/handling-inner-contents-with-ngcontent.md)
-* [Pipes in Angular 2+](angular4/pipes.md)
 
 ## GraphQL
 
