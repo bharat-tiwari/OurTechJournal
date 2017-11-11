@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-api", "jsfiddle", "styles-sass", "-highlight", "sunlight-highlighter", "bootstrap-callout", "grid" ], 
+    "plugins": [ "theme-api", "jsfiddle", "styles-sass", "-highlight", "sunlight-highlighter", "bootstrap-callout", "grid", "git-author" ], 
     "pluginsConfig": {
         "theme-api": {
             "theme": "dark",
@@ -30,7 +30,11 @@
         "sunlight-highlighter": {
             "theme": "dark",
             "lineNumber": true
-        }
+        },
+        "git-author":{
+              "position": "bottom",
+              "createTpl": "Created by Bharat Tiwari <br /> Javascript | .net | Azure"
+          }
     }
 }
 
