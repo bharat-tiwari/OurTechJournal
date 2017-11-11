@@ -33,7 +33,7 @@
         },
         "localized-footer": {
              "hline": true,  
-             "filename": "./layout/FOOTER.md"
+             "filename": "./layout/footer.md"
        }
     }
 }
