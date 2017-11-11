@@ -4,11 +4,6 @@
  <span>Javascript | ASP.net | Azure </span>
 </div>
 
-<table>
-  <tr>
-   <td>Abc</td>
-  </tr>
-</table>
 
  
  
