@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-api", "jsfiddle", "styles-sass", "-highlight", "sunlight-highlighter", "bootstrap-callout", "grid", "footer" ], 
+    "plugins": [ "localized-footer", "theme-api", "jsfiddle", "styles-sass", "-highlight", "sunlight-highlighter", "bootstrap-callout", "grid" ], 
     "pluginsConfig": {
         "theme-api": {
             "theme": "dark",
@@ -31,9 +31,10 @@
             "theme": "dark",
             "lineNumber": true
         },
-        "layout": {
-          "footerPath" : "layouts/footer.html"
-        }
+        "localized-footer": {
+             "hline": true,            // whether to include an horizontal line above the footer
+             "filename": "./layout/FOOTER.md" // may also be a relative path to the book root
+       }
     }
 }
 
