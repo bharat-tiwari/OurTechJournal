@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-api", "jsfiddle", "styles-sass", "-highlight", "sunlight-highlighter", "bootstrap-callout", "grid", "git-author" ], 
+    "plugins": [ "theme-api", "jsfiddle", "styles-sass", "-highlight", "sunlight-highlighter", "bootstrap-callout", "grid", "footer" ], 
     "pluginsConfig": {
         "theme-api": {
             "theme": "dark",
@@ -31,9 +31,8 @@
             "theme": "dark",
             "lineNumber": true
         },
-        "git-author":{
-              "position": "bottom",
-              "createTpl": "Created by Bharat Tiwari , Javascript | .net | Azure"
+        "layout": {
+          "footerPath" : "layouts/footer.html"
         }
     }
 }
