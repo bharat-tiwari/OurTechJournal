@@ -8,6 +8,7 @@
     text-align: right;
     height: 5rem;
     z-index: 1;
+    color: #dddddd;
 }
 
 .localized-footer a{
