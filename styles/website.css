@@ -62,6 +62,13 @@ table.noborder td {
 .h3 {
   font-size:18px;
 }
+.git-author-container  {
+    text-align: right;
+}
+
+.git-author-top {
+    float: right;
+}
 
 
 
