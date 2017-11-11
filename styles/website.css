@@ -1,13 +1,15 @@
 .localized-footer {
-  position: sticky;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #759AA6;
-  text-align: left;
-  height: 60px;
-  z-index:1;
+    position: sticky;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #759AA6;
+    text-align: left;
+    height: 5rem;
+    z-index: 1;
+    margin-right: -2%;
+    margin-left: -2%;
 }
 
 img[alt=bharattiwari-aft] { width: 30px; height:30px }
