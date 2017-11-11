@@ -1,14 +1,14 @@
 .localized-footer {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 0 1rem;
-    background-color: #444;
-    text-align: right;
-    height: 5rem;
-    z-index: 1;
-    color: #dddddd;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 1rem;
+  background-color: #444;
+  text-align: right;
+  height: 5rem;
+  z-index: 1;
+  color: #dddddd;
 }
 
 .localized-footer a{
