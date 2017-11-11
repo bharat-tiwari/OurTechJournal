@@ -9,6 +9,7 @@
   height: 200px;
   z-index:1;
 }
+
 div.book-summary {
   z-index:99;
 }
