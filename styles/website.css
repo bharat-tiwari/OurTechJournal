@@ -3,16 +3,22 @@
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1rem;
+    padding: 0 1rem;
     background-color: #444;
     text-align: right;
     height: 5rem;
     z-index: 1;
 }
 
+.localized-footer a{
+  color: #0B2EF0;
+}
+
 div.book-summary {z-index:99}
 
 img[alt=bharattiwari-aft] { width: 30px; height:30px }
+
+
 
 th:empty {
   font-size: 0px;
