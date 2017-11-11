@@ -13,13 +13,14 @@
 * [Route Guards](angular4/route-guards.md)
 * [Shared Modules](angular4/shared-modules.md)
 * [Tree Shaking](angular4/tree-shaking.md)
+* [LifeCycle Hooks](angular4/lifecycle-hooks.md)
+* [Rx Observables](angular4/rx-observables.md)
 * [Builtin Directives](angular4/builtin-directives.md)
   * [ngFor](angular4/ngfor.md)
   * [ngSwitch](angular4/ngswitch.md)
   * [ngIf](angular4/ngif-directive.md)
   * [ngFor directive](angular4/ngfor-directive.md)
 * [Data Binding in Angular 2/4](angular4/data-binding-in-angular-24.md)
-* [ng-content to render inner contents](angular4/handling-inner-contents-with-ngcontent.md)
 
 ## GraphQL
 
