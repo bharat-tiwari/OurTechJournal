@@ -1,5 +1,5 @@
 .localized-footer {
-  position: fixed;
+  position: sticky;
   right: 0;
   bottom: 0;
   left: 0;
@@ -10,9 +10,7 @@
   z-index:1;
 }
 
-div.book-summary {
-  z-index:99;
-}
+img[alt=bharattiwari-aft] { width: 30px; height:30px }
 
 th:empty {
   font-size: 0px;
