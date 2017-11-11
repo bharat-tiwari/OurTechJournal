@@ -7,8 +7,11 @@
   background-color: #759AA6;
   text-align: center;
   height: 5rem;
+  z-index:1;
 }
-
+div.book-summary {
+  z-index:99;
+}
 
 th:empty {
   font-size: 0px;
