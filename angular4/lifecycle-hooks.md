@@ -25,11 +25,8 @@ This hook is fired before any of the child directive properties are initialized.
 |----|----|
 | ngOnChanges()| Respond when Angular (re)sets data-bound input properties. The method receives a SimpleChanges object of current and previous property values. Called before ngOnInit() and whenever one or more data-bound input properties change.|
 | ngOnInit()| Initialize the directive/component after Angular first displays the data-bound properties and sets the directive/component's input properties. Called once, after the first ngOnChanges().|
-|ngDoCheck()|Detect and act upon changes that Angular can't or won't detect on its own.Called during every change detection run, immediately after ngOnChanges() and ngOnInit().
-ngAfterContentInit()	
-Respond after Angular projects external content into the component's view.
-Called once after the first ngDoCheck().
-A component-only hook.
+|ngDoCheck()|Detect and act upon changes that Angular can't or won't detect on its own.Called during every change detection run, immediately after ngOnChanges() and ngOnInit().|
+Respond after Angular projects external content into the component's view. Called once after the first ngDoCheck(). A component-only hook.
 ngAfterContentChecked()	
 Respond after Angular checks the content projected into the component.
 Called after the ngAfterContentInit() and every subsequent ngDoCheck().
