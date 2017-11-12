@@ -1,6 +1,6 @@
-<div style="width:70%; border:3px solid red;">
+<div style="width:70%;">
  </div>
- <div style="width:30%; border:3px solid blue;">
+ <div style="width:30%;">
     <div style="display:flex">
 	<div class="bt-col-l">
           <img src="../assets/btprofile.png" style="height:45px;width:45px;">
