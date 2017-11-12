@@ -12,7 +12,7 @@ position: fixed;
   display: flex;
 }
 
-.localized-footer a{
+a.blue{
   color: #0B2EF0;
 }
 
