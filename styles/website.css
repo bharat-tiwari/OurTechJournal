@@ -1,5 +1,5 @@
 .localized-footer {
-  position: fixed;
+position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
@@ -9,6 +9,7 @@
   height: 5rem;
   z-index: 1;
   color: #dddddd;
+  display: flex;
 }
 
 .localized-footer a{
@@ -86,13 +87,15 @@ table.noborder td {
   font-size:18px;
 }
 
-.bt-col-3{
-  display:inline;
-  width:30%;
+.bt-col-l{
+  width: 70%;
+  text-align: right;
 }
-.bt-col-7{
-  display:inline;
-  width:70%;
+.bt-col-r{
+  text-align: left;
+  white-space: nowrap;
+  padding-left: 5px;
+  margin-top: -5px;
 }
 
 
