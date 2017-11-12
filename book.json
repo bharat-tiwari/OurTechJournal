@@ -10,8 +10,8 @@
                     "default": true
                 },
                 {
-                    "lang": "go",
-                    "name": "Go"
+                    "lang": "ts",
+                    "name": "Typescript"
                 }
             ]
         },
