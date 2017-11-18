@@ -27,3 +27,50 @@ Add a `<base>` tag in the `<head>` section of index.html as below:
 </body>
 </html>
 ```
+
+
+## Setting up Basic Routes Array:
+
+```ts
+...
+import { Route, RouterModule } from '@angular/router';
+...
+
+const ROUTES: Route[] = [
+  { path: '', component: LoginComponent},
+  { path: 'home', component: HomeComponent},
+  { 
+    path: 'albums', 
+    component: UserAlbumsComponent
+  },
+  { 
+    path: 'albums/:id', 
+    children: [
+      { path: '', component: AlbumDetailsComponent },
+      { path: '/photos', component: AlbumPhotosComponent },
+      { path: '/photos/:id', component: PhotoDetailsComponent },
+    ]
+  }
+];
+
+@NgModule({
+  declarations: [
+    ...
+  ],
+  imports: [
+    ...
+    RouterModule.forRoot(ROUTES)
+  ],
+  providers: [
+    ...
+  ],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
+
+Above, we imported `Route` and `RouterModule` from `@angular\router`.
+
+Next, we set a const ROUTES of type `Route[]` , an array of type `Route`
+
+
