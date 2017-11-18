@@ -21,8 +21,16 @@
   * [ngSwitch](angular4/ngswitch.md)
   * [ngIf](angular4/ngif-directive.md)
   * [ngFor directive](angular4/ngfor-directive.md)
-* Routing
+* [Routing](angular4/routing.md)
   * [Setting up basic routing](angular4/setting-up-basic-routing.md)
+  * [routerLink and routerLinkActive](angular4/routerlink.md)
+  * Navigating from a component to other
+  * redirectTo
+  * relativeTo
+  * pathMatch
+  * ActivatedRoute
+  * Route Params and Data
+  * wildcard Route
 
 ## GraphQL
 
