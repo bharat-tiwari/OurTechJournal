@@ -73,4 +73,11 @@ Above, we imported `Route` and `RouterModule` from `@angular\router`.
 
 Next, we set a const ROUTES of type `Route[]` , an array of type `Route`
 
+Note the setting up of `children` routes for the path `albums/:id`.
+
+Finally, in the AppModule's metadata in `@NgModule` decorator, we specify below inside `imports` array:
+```ts
+RouterModule.forRoot(ROUTES)
+```
+
 
