@@ -31,7 +31,7 @@ Add a `<base>` tag in the `<head>` section of index.html as below:
 
 ## Setting up Basic Routes Array:
 
-```ts
+```js
 ...
 import { Route, RouterModule } from '@angular/router';
 ...
