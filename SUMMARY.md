@@ -25,13 +25,14 @@
   * Routing in Angular
   * [Setting up basic routing](angular4/setting-up-basic-routing.md)
   * [routerLink and routerLinkActive](angular4/routerlink.md)
-  * Navigating from a component to other
+  * [router.navigate](angular4/routernavigate.md)
   * redirectTo
   * relativeTo
   * pathMatch
   * ActivatedRoute
   * Route Params and Data
   * Routing in Angular
+  * Passing Data with Route
 
 ## GraphQL
 

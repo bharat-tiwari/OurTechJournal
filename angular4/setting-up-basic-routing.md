@@ -81,3 +81,11 @@ RouterModule.forRoot(ROUTES)
 ```
 
 
+### `<router-outlet>`
+
+Based on the current route in the browser, Angular would display the contents of the component as per routes-component configuration above, inside the `<router-outlet></router-outlet>` tags.
+
+
+
+` 
+
