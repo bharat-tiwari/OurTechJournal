@@ -21,6 +21,8 @@
   * [ngSwitch](angular4/ngswitch.md)
   * [ngIf](angular4/ngif-directive.md)
   * [ngFor directive](angular4/ngfor-directive.md)
+* Routing
+  * [Setting up basic routing](angular4/setting-up-basic-routing.md)
 
 ## GraphQL
 
