@@ -15,7 +15,7 @@
 * [Tree Shaking](angular4/tree-shaking.md)
 * [LifeCycle Hooks](angular4/lifecycle-hooks.md)
 * [ngRx](angular4/ngrx.md)
-* [Rx Observables](angular4/rx-observables.md)
+* [Observables](angular4/rx-observables.md)
 * [Builtin Directives](angular4/builtin-directives.md)
   * [ngFor](angular4/ngfor.md)
   * [ngSwitch](angular4/ngswitch.md)
