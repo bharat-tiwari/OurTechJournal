@@ -25,12 +25,12 @@
   * Routing in Angular
   * [Setting up basic routing](angular4/setting-up-basic-routing.md)
   * [routerLink and routerLinkActive](angular4/routerlink.md)
-  * [router.navigate](angular4/routernavigate.md)
+  * [router.navigate and ActivatedRoute](angular4/routernavigate.md)
+  * [Route Params as Observables](angular4/route-params-and-data.md)
   * redirectTo
   * relativeTo
   * pathMatch
   * ActivatedRoute
-  * Route Params and Data
   * Routing in Angular
   * Passing Data with Route
 
