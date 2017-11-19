@@ -26,7 +26,7 @@
   * [Attribute Directives](angular4/attribute-directives.md)
     * temp
     * [ngClass](angular4/attribute-directives/ngclass.md)
-    * ngStyle
+    * [ngStyle](angular4/attribute-directives/ngstyle.md)
 * [Routing](angular4/routing.md)
   * Routing in Angular
   * [Setting up basic routing](angular4/setting-up-basic-routing.md)

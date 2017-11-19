@@ -23,7 +23,7 @@ export class NgClassExample implements OnInit {
     userPassed: boolean = false;
     ngOnInit(){
         if (result > 40){
-            userPassed = true;
+            this.userPassed = true;
         }
     }
 }
