@@ -23,7 +23,10 @@
     * [ngSwitch](angular4/directive/ngswitch.md)
     * [ngFor](angular4/directive/ngfor-directive.md)
     * [ngIf](angular4/directive/ngif.md)
-  * Attribute Directives
+  * [Attribute Directives](angular4/attribute-directives.md)
+    * temp
+    * [ngClass](angular4/attribute-directives/ngclass.md)
+    * ngStyle
 * [Routing](angular4/routing.md)
   * Routing in Angular
   * [Setting up basic routing](angular4/setting-up-basic-routing.md)
