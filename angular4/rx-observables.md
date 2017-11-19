@@ -28,6 +28,7 @@ const anObserver = {
     error: (err)=>console.log(err),
     complete:()=>console.log('Stream complete')
 }
+//👆 an Observer should have one or more of these methods - next(), error(), complete()
 
 Rx.Observable.fromEvent(button, 'click') //👈 Rx.Observable provides lot of such methods like fromEvent to create an Observable from an event or data fetch or any async action
     .subscribe(anObserver);
