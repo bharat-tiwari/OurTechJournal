@@ -45,12 +45,12 @@ In the destination component for this route i.e. 'ProductDetailsComponent', the 
 
 ```js
 ...
-import { ActivatedRoute } from '@angular/router';  👈
+import { ActivatedRoute } from '@angular/router'; // 👈
 ...
 
 @Component({
    selector: 'Product-Details',
-   template: `<div>
+   template: `<div *ngIf={{selectedProd}}>
     <h3>{{selectedProd.id}} -- {{selectedProd.name}}</h3>
     <div> {{selectedProd.details}} </div>
    </div>`
@@ -65,7 +65,7 @@ export class ProductDetailsComponent implements OnInit {
    constructor(private activatedRoute: ActivatedRoute){}
    
    ngOnInit(){
-      let prodId = this.activatedRoute.snapshot.params['id']; 👈 //note how to read route parameters using ActivatedRoute.snapshot.params
+      let prodId = this.activatedRoute.snapshot.params['id']; // 👈 note how to read route parameters using ActivatedRoute.snapshot.params
 
       
       [ product ] = this.ProductsWithDetails.filter((prod) => prod.id === prodId); 
