@@ -17,13 +17,13 @@
 * [ngRx](angular4/ngrx.md)
 * [Observables](angular4/rx-observables.md)
 * [Builtin Directives](angular4/builtin-directives.md)
+  * Temp
   * [Structural Directives](angular4/directive.md)
     * [ngFor](angular4/directive/ngfor.md)
-    * [ngIf](angular4/directive/ngif.md)
     * [ngSwitch](angular4/directive/ngswitch.md)
     * [ngFor Directive](angular4/directive/ngfor-directive.md)
+    * [ngIf](angular4/directive/ngif.md)
   * Attribute Directives
-* [Structural Directives](angular4/structural-directives.md)
 * [Routing](angular4/routing.md)
   * Routing in Angular
   * [Setting up basic routing](angular4/setting-up-basic-routing.md)
