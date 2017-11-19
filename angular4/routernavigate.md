@@ -50,7 +50,7 @@ import { ActivatedRoute } from '@angular/router'; // 👈
 
 @Component({
    selector: 'Product-Details',
-   template: `<div *ngIf={{selectedProd}}>
+   template: `<div *ngIf="selectedProd">
     <h3>{{selectedProd.id}} -- {{selectedProd.name}}</h3>
     <div> {{selectedProd.details}} </div>
    </div>`
