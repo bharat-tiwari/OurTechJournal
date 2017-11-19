@@ -22,7 +22,7 @@ export class ProductListComponent {
    products = [
     {id: 1, name: "Milk"}, 
     {id: 2, name: "Bananas"},
-    {id: 2, name: "Almonds"}
+    {id: 3, name: "Almonds"}
    ];
    
    constructor(private router: Router){
@@ -30,9 +30,50 @@ export class ProductListComponent {
    
    gotoProdDetails(product){
       router.naviagte(['/ProductDetails', product.id]);
-      // 👆, assume that '/ProductDetails' route is configured as below:
+      // 👆 is based on  the assumption that '/ProductDetails' route is configured as below:
       // { path: '/ProductDetails/:id', component: 'ProductDetailsComponent' }
    }
 } 
 ```
+
+
+## Reading Route param value in the component using `ActivatedRoute`
+Above, we passed `product.id` as route param with the `/ProductDetails` route.
+This will take the form `/ProductDetails/1` in the URL for the product 'Milk'.
+
+In the destination component for this route i.e. 'ProductDetailsComponent', the passed route param can be read using `ActivatedRoute` object that angular's router module sets for us as below:
+
+```js
+...
+import { ActivatedRoute } from '@angular/router';  👈
+...
+
+@Component({
+   selector: 'Product-Details',
+   template: `<div>
+    <h3>{{selectedProd.id}} -- {{selectedProd.name}}</h3>
+    <div> {{selectedProd.details}} </div>
+   </div>`
+})
+export class ProductDetailsComponent implements OnInit {
+   selectedProd = {};
+   ProductsWithDetails = [
+      {id: 1, name: "Milk", details: "Milk is rich with Calcium"},
+      {id: 2, name: "Bananas", details: "Banana is loaded with fiber and has high content of potassium "},
+      {id: 3, name: "Almonds", details: "Almonds is rich with protein and Vitamin E"}
+   ]
+   constructor(private activatedRoute: ActivatedRoute){}
+   
+   ngOnInit(){
+      let prodId = this.activatedRoute.snapshot.params['id']; 👈 //note how to read route parameters using ActivatedRoute.snapshot.params
+
+      
+      [ product ] = this.ProductsWithDetails.filter((prod) => prod.id === prodId); 
+      if (product) {
+         this.selectedProd = product;
+      }
+   }
+   
+}
+
 
