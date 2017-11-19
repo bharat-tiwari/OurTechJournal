@@ -29,7 +29,7 @@ const anObserver = {
     complete:()=>console.log('Stream complete')
 }
 
-Rx.Observable.fromEvent(button, 'click')
+Rx.Observable.fromEvent(button, 'click') //👈 Rx.Observable provides lot of such methods like fromEvent to create an Observable from an event or data fetch or any async action
     .subscribe(anObserver);
     
 ```
