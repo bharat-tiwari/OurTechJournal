@@ -11,7 +11,7 @@ With react, you have to use and configure external modules for setting up your o
 For Dependency injection, you use ES6 compilers like Babel or Typescript in React to inject/import external modules in your components. 
 
 With ngRx, you can implement Redux in Angular
-WIth MobX, you can implement Observables in React
+With MobX, you can implement Observables in React
 
     
 
