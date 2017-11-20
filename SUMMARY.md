@@ -6,6 +6,7 @@
 
 ## Angular 4
 
+* [Angular vs React](angular4/angular-vs-react.md)
 * [Change Detection](angular4/change-detection.md)
 * [Lazy Loading of modules](angular4/lazy-loading-of-modules.md)
 * [Preloading](angular4/preloading.md)

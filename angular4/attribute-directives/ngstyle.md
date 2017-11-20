@@ -1,13 +1,13 @@
 #ngStyle directive
 
 ```js
-import { Component } from '@angular/core`;
+import { Component, Input } from '@angular/core`;
 
 @Component({
     selector: 'ngStyle -example', 
     template: `<div>
         <h2>ngStyle Example</h2>
-        <!-- 👇 note the use of ngClass with ng expressions -->
+        <!-- 👇 note the use of ngStyle with ng expressions -->
         <div [ngStyle]="{'color': resultColor, 'background-color': resultBG}">
             {{result}}
         </div>
