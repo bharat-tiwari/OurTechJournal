@@ -10,8 +10,8 @@ With React, you get simple, light-weight library that's easy to learn and get st
 With react, you have to use and configure external modules for setting up your own project standards , its like setting up your own framework using libraries like React-DOM-Router and usually a Flux-based architecture like Redux is used to setup your Service/Model layer.
 For Dependency injection, you use ES6 compilers like Babel or Typescript in React to inject/import external modules in your components. 
 
-With ngRx, you can implement Redux in Angular
-With MobX, you can implement Observables pattern in React
+📌With ngRx, you can implement Redux in Angular
+📌With MobX, you can implement Observables pattern in React
 
     
 
