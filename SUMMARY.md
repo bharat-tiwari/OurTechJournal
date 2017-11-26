@@ -73,8 +73,8 @@
 
 * ['this' keyword](javascript/this-keyword.md)
 * [Closures](javascript/closures.md)
-* Prototypical Inheritance
 * use strict
+* [Prototypal Inheritance](javascript/prototypical-inheritance.md)
 * NaN
 * [typeof vs instanceof](javascript/typeof-vs-instanceof.md)
 * Promise
