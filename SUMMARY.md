@@ -75,6 +75,7 @@
 * [Closures](javascript/closures.md)
 * use strict
 * [Prototypal Inheritance](javascript/prototypical-inheritance.md)
+  * [Creating Object in Javascript](javascript/prototypical-inheritance/creating-object-in-javascript.md)
 * NaN
 * [typeof vs instanceof](javascript/typeof-vs-instanceof.md)
 * Promise
