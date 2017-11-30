@@ -88,3 +88,7 @@ We can inject the component instance's ChangeDetectRef in its constructor via de
 We can also call its API's markForCheck() method in which case Angular will loop the ChangeDetection for all and only the components for the path of this one to all the way to the root, but only the components in this path , the other components' ChangeDetection will not be triggered.
 
 Once the ChangeDetection loop run is over, it'll restore the OnPush state for all the components in the tree.
+
+
+https://youtu.be/D4Itql7V6uE
+
