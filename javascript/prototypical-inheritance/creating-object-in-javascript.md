@@ -13,7 +13,8 @@
 
 3. Using `Object.create`
     ```js
-    var obj1 = Object.create(o
+    var obj1 = Object.create(o)
+    ```
 
     `Object.create` creates a new object with its prototype object passed as a parameter (obj2 in above example).
 
