@@ -46,6 +46,7 @@
 * [Introduction](graphql/introduction.md)
 * [Server](graphql/server.md)
 * [Client Side](graphql/client-side.md)
+* [GraphQL in Angular](graphql/graphql-in-angular.md)
 
 ## CSS
 
@@ -83,6 +84,7 @@
 * [Event handlers](javascript/event-handlers.md)
 * [Event bubbling](javascript/event-bubbling.md)
 * [Event Delegation](javascript/event-delegation.md)
+* [Javascript Code Execution](javascript/javascript-code-execution.md)
 
 ## Web
 
@@ -98,4 +100,7 @@
 ## REACT
 
 * [Routing - React Router 4](javascript/routing-react-router-4.md)
+* [Higher-Order Component](javascript/higher-order-component.md)
+
+## Angular 1.x
 
