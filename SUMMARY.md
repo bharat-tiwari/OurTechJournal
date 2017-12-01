@@ -47,6 +47,14 @@
 * [Server](graphql/server.md)
 * [Client Side](graphql/client-side.md)
 * [GraphQL in Angular](graphql/graphql-in-angular.md)
+* Queries
+  * temp
+  * query with parameters
+  * aliases
+  * fragments
+  * @include directive
+  * @skip directive
+  * variables
 
 ## CSS
 

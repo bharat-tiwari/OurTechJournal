@@ -8,7 +8,38 @@ With GraphQL:
 - its easy to aggregate data from multiple sources with just one call compared to multiple calls that may be needed with REST 
 - returns JSON
 
-## Compaire  to REST
+## Comparing to REST
+* Requires continuous upgrading of documentation
+* Code Redundancy and increased complexity could easily get introduced if endpoints need to be configured to send different properties of same data
+    e.g * an endpoint for basic User Profile 
+        * an endpoint for detailed user profile with email and profile pic
+        
+with REST, you client would receive a response like below:
+
+```js
+"user": {
+    "id": "AA0001",
+    "email" : "user1@test.com",
+    "createdOn": "12324982132",
+    "servicePlan": "Premium"
+}
+
+```
+
+But what if client is only interested in `id` and `servicePlan`. With REST, your client has to filter the needed data on the client side or else server has to create another endpoint to return only those properties.
+With graphQL, client can specify exactly what data it needs in the query and will get response accordingly
+
+```js
+{
+    "data": {
+      "user": {
+        "id": "AA0001",
+        "servicePlan": "Premium"
+      }
+    }
+}
+```
+
 
 
 # References
