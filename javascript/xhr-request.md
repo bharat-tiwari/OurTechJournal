@@ -5,9 +5,9 @@ var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = () => {
     if (xhr.readyState === 4) {
       if (xhr.status === 200) {
-        resolve(JSON.parse(xhr.responseText));
+        console.log('Success', xhr.responseText);
       } else {
-        reject(JSON.parse(xhr.responseText));
+        console.log('Error', xhr.responseText);
       }
     }
   };
