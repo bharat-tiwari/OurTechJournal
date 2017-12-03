@@ -93,6 +93,7 @@
 * [Event bubbling](javascript/event-bubbling.md)
 * [Event Delegation](javascript/event-delegation.md)
 * [Javascript Code Execution](javascript/javascript-code-execution.md)
+* [XHR Request](javascript/xhr-request.md)
 
 ## Web
 
