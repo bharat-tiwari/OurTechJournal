@@ -37,7 +37,7 @@ The MVC controller action that processes the request can be decorated with `[Val
 ```
 
 ## In AngularJS
-AngularJS provides a mechanism to counter XSRF. 
+
 On any ajax($http) request, the `$http` service reads a cookie (which is named  `XSRF-TOKEN` by default) and adds it to the HTTP request headers named as `X-XSRF-TOKEN`. 
 Because only the JavaScript that runs on your domain could read the cookie and set the header, the server would be sure that the request came from the valid domain. The header will not be set for cross-domain requests.
 For this to work, on the server side, it should set a unique user specific session cookie token called `XSRF-TOKEN` on the first HTTP GET request. And then on the subsequent server requests, the server can verify that the cookie matches `X-XSRF-TOKEN HTTP` header. 
