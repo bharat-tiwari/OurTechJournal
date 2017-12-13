@@ -73,6 +73,12 @@
 * [Lists](sass-scss/lists.md)
 * [Maps](sass-scss/maps.md)
 
+## RxJS
+
+* [throttle vs debounceTime](rxjs/debouncetime.md)
+* distinctUnitChange
+* [reduce vs scan](rxjs/reduce-vs-scan.md)
+
 ## Typescript
 
 * [Typeguards](typescript/typeguards.md)
