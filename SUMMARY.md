@@ -68,10 +68,6 @@
 * [Sets](es6/sets.md)
 * [Maps](es6/maps.md)
 
-## AngularJS 1.x
-
-* [scope Lifecycle](angularjs-1x/scope-lifecycle.md)
-
 ## SASS
 
 * [Mixins](sass-scss/sass-mixins.md)
