@@ -77,7 +77,7 @@
 ## RxJS
 
 * [throttle vs debounceTime](rxjs/debouncetime.md)
-* distinctUnitChange
+* [distinctUnitChange](rxjs/distinctunitchange.md)
 * [reduce vs scan](rxjs/reduce-vs-scan.md)
 
 ## Typescript
@@ -89,7 +89,7 @@
 
 * ['this' keyword](javascript/this-keyword.md)
 * [Closures](javascript/closures.md)
-* use strict
+* [use strict](javascript/use-strict.md)
 * [Prototypal Inheritance](javascript/prototypical-inheritance.md)
   * [Creating Object in Javascript](javascript/prototypical-inheritance/creating-object-in-javascript.md)
 * NaN
