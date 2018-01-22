@@ -101,6 +101,7 @@
 * [Event Delegation](javascript/event-delegation.md)
 * [Javascript Code Execution](javascript/javascript-code-execution.md)
 * [XHR Request](javascript/xhr-request.md)
+* [Promise Error: Catch vs Error Function in Then ](javascript/promise-error-catch-vs-error-function-in-then.md)
 
 ## Web
 
