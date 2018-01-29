@@ -17,18 +17,22 @@ export class AppHttpInterceptor implements HttpInterceptor {
   intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
     
     const appRequestHeaders = new HttpHeaders({
+      ...request.headers,
       'Content-Type': 'application/json',
       'x-api-key': AppSettings.API_KEY
     });
+    
+    const appRequestParams = new params: req.params.set('filter', 'completed');
     
     //we have to clone the original HttpRequest object as its immutable
     const httpRequest = request.clone({ headers: appRequestHeaders });
 
     return next
       .handle(httpRequest)
-      .do((evt: HttpEvent<any>) => {
+      .do((evt: HttpEvent<any>) => { 
         if (evt instanceof HttpResponse) {
           //handle response here
+          console.log('response status=:', evt.status);
         }
       })
       .catch(response => {
