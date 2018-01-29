@@ -10,9 +10,7 @@ import { HttpRequest, HttpResponse, HttpInterceptor, HttpEvent,
    HttpHandler, HttpErrorResponse } from '@angular/common/http';
 
 import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/operator/do';
-import 'rxjs/add/operator/catch';
-import 'rxjs/add/observable/throw';
+
 
 @Injectable()
 export class AppHttpInterceptor implements HttpInterceptor {
@@ -24,19 +22,18 @@ export class AppHttpInterceptor implements HttpInterceptor {
     });
     
     //we have to clone the original HttpRequest object as its immutable
-
     const httpRequest = request.clone({ headers: appRequestHeaders });
 
     return next
       .handle(httpRequest)
-      .do((ev: HttpEvent<any>) => {
-        if (ev instanceof HttpResponse) {
-          console.log('processing response', ev);
+      .do((evt: HttpEvent<any>) => {
+        if (evt instanceof HttpResponse) {
+          //handle response here
         }
       })
       .catch(response => {
         if (response instanceof HttpErrorResponse) {
-          console.log('Processing http error', response);
+          //handle response error here
         }
 
         return Observable.throw(response);
