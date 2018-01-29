@@ -40,6 +40,7 @@
   * ActivatedRoute
   * Routing in Angular
   * Passing Data with Route
+* [Intercept HTTP request](angular4/intercept-http-request.md)
 
 ## GraphQL
 
