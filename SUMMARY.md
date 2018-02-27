@@ -42,6 +42,7 @@
   * Passing Data with Route
 * [Intercept HTTP request](angular4/intercept-http-request.md)
 * [Custom Directives](angular4/custom-directives.md)
+* [Communication between components](angular4/communication-between-components.md)
 
 ## GraphQL
 
