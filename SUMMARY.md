@@ -17,6 +17,7 @@
 * [LifeCycle Hooks](angular4/lifecycle-hooks.md)
 * [ngRx](angular4/ngrx.md)
 * [Observables](angular4/rx-observables.md)
+* [Observables vs Promises](angular4/observables-vs-promises.md)
 * [Builtin Directives](angular4/builtin-directives.md)
   * Temp
   * [Structural Directives](angular4/directive.md)
