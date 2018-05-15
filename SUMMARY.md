@@ -44,6 +44,7 @@
 * [Intercept HTTP request](angular4/intercept-http-request.md)
 * [Custom Directives](angular4/custom-directives.md)
 * [Communication between components](angular4/communication-between-components.md)
+* [Angular Modules](angular4/angular-modules.md)
 
 ## GraphQL
 
@@ -98,7 +99,7 @@
   * [Creating Object in Javascript](javascript/prototypical-inheritance/creating-object-in-javascript.md)
 * NaN
 * [typeof vs instanceof](javascript/typeof-vs-instanceof.md)
-* Promise
+* [Promise](javascript/promise.md)
 * [localStorage and SessionStorage](javascript/localstorage-and-sessionstorage.md)
 * [Event handlers](javascript/event-handlers.md)
 * [Event bubbling](javascript/event-bubbling.md)
