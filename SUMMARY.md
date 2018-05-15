@@ -45,6 +45,7 @@
 * [Custom Directives](angular4/custom-directives.md)
 * [Communication between components](angular4/communication-between-components.md)
 * [Angular Modules](angular4/angular-modules.md)
+* [Reactive Forms](angular4/reactive-forms.md)
 
 ## GraphQL
 
