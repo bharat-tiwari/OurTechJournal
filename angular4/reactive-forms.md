@@ -14,15 +14,8 @@ Two options to build forms in Angular:
   - js object driven form fields and their validations
   - dynamically validate and generate the custom validation messages for the form fields
   
-  On Template Side:
-  1. Set up a `form` element with a binding named `[formGroup]`:
-  
-  ```
-  <form [formGroup]="userDetailsForm" (ngSubmit)="submitUserDetails(userDetailsForm)" >
-     ...
-     ...
-   </form>
-   ```
+## Read in Details
+https://medium.com/aviabird/complete-angular2-guide-reactive-forms-in-depth-part-1-21a8e2428904
    
  
  
