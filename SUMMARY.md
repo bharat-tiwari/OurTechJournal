@@ -125,4 +125,7 @@
 
 * [Routing - React Router 4](javascript/routing-react-router-4.md)
 * [Higher-Order Component](javascript/higher-order-component.md)
+* [REDUX](javascript/redux.md)
+* [forceUpdate\(\)](javascript/forceupdate.md)
+* [Storing Data in React](javascript/storing-data-in-react.md)
 
