@@ -21,3 +21,4 @@
 - Data to be used across application or across multiple components:
 
       1. Use Redux store and associate/connect your props variables with the global Redux store using the **connect** wrapper and a **mapStateToProps** function.
+      
