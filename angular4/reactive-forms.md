@@ -13,6 +13,7 @@ Two options to build forms in Angular:
  - advantages:
   - js object driven form fields and their validations
   - dynamically validate and generate the custom validation messages for the form fields
+  - easily unit testable
   
 ## Read in Details
 https://medium.com/aviabird/complete-angular2-guide-reactive-forms-in-depth-part-1-21a8e2428904
