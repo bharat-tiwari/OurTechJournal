@@ -128,4 +128,6 @@
 * [REDUX](javascript/redux.md)
 * [forceUpdate\(\)](javascript/forceupdate.md)
 * [Storing Data in React](javascript/storing-data-in-react.md)
+* [Error Handling](angular4/error-handling.md)
+* [React Context](javascript/react-context.md)
 
