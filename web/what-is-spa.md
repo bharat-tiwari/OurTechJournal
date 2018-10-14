@@ -39,6 +39,63 @@ SPA frameworks provide some sort of routing feature to allow you to map the cont
 
 
 
+```
+const appRoutes = [
+{ path: '/', component: RootComponent },
+{ path: '/user', component: UserProfileComponent },
+{ path: '/cart', component: ShoppingCartComponent }
+]
+```
+
+
+
+The router would keep observing the `pathname` of the current URL on user's browser and when it notices a change in the URL, it triggers a re-render 
+Additionally , the routers can also support the other properties of `window.location` like `hash` and `query strings` to provide some additional data to further filter or customize the contents.
+
+
+## Browser Session and Browser History API
+
+Browsers maintain a `browsing context` for each tab: 
+
+```
+{
+  sessionHistory: 
+  [ 
+    {
+      url: https://www.myapp.com,
+      window: {
+         document: {
+             location: {
+             protocol: 'http',
+             hostname: 'www.myapp.com',
+             pathname: '/user',
+             search: '?id=user1',
+             hash: '#preferences'
+         }
+      }
+    }, 
+    ...,
+    ...
+  ]
+
+
+}
+```
+
+## Well explained here:
+After reading above sections - directly jump to the section - How Browsers Handle Locations explained at https://medium.com/@pshrmn/demystifying-single-page-applications-3068d0555d46
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
