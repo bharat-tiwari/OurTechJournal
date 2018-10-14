@@ -115,6 +115,7 @@
 * [CORS](web/cors.md)
 * [CSRF](web/csrf.md)
 * [XSS Attack](web/xss-attack.md)
+* [What is SPA](web/what-is-spa.md)
 
 ## NodeJS
 
