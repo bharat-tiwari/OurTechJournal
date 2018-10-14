@@ -41,6 +41,7 @@
   * ActivatedRoute
   * Routing in Angular
   * Passing Data with Route
+  * [Route Parameters](angular4/route-parameters.md)
 * [Intercept HTTP request](angular4/intercept-http-request.md)
 * [Custom Directives](angular4/custom-directives.md)
 * [Communication between components](angular4/communication-between-components.md)
