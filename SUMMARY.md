@@ -47,6 +47,9 @@
 * [Communication between components](angular4/communication-between-components.md)
 * [Angular Modules](angular4/angular-modules.md)
 * [Reactive Forms](angular4/reactive-forms.md)
+* [Unit Testing](angular4/unit-testing.md)
+  * [TestBed and component fixture](angular4/unit-testing/testbed-and-component-fixture.md)
+  * [Testing HttpClient requests](angular4/unit-testing/testing-httpclient-requests.md)
 
 ## GraphQL
 
