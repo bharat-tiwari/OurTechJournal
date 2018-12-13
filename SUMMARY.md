@@ -50,6 +50,7 @@
 * [Unit Testing](angular4/unit-testing.md)
   * [TestBed and component fixture](angular4/unit-testing/testbed-and-component-fixture.md)
   * [Testing HttpClient requests](angular4/unit-testing/testing-httpclient-requests.md)
+  * [Testing fakeAsync](angular4/unit-testing/testing-fakeasync.md)
 
 ## GraphQL
 
