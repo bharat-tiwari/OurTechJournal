@@ -1,4 +1,4 @@
-# 'this' keyword
+f# 'this' keyword
 In javascript, when a function is invoked 
  - an 'execution context' is created for the function
   - each 'execution context' has a 'variable environment' where the variables declared inside the function live
@@ -18,7 +18,7 @@ In javascript, when a function is invoked
   6. When called with `call()`, `apply()` or `bind()`, we can determine what `this` in the function should point to, the first parameter passed in these function is what `this` would point to.
   7. In case of ES6's  `arrow` function, `this` is bound lexically, see below jsfiddle example:
   
-   [JSFiddle](https://jsfiddle.net/tiwarib/nn3v5z6b/#tabs=js,result,html) 
+    
 
   
 

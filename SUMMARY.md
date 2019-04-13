@@ -32,7 +32,7 @@
     * [ngClass](angular4/attribute-directives/ngclass.md)
     * [ngStyle](angular4/attribute-directives/ngstyle.md)
 * [Routing](angular4/routing.md)
-  * Routing in Angular
+  * [Routing in Angular](angular4/routing-in-angular.md)
   * [Setting up basic routing](angular4/setting-up-basic-routing.md)
   * [routerLink and routerLinkActive](angular4/routerlink.md)
   * [router.navigate and ActivatedRoute](angular4/routernavigate.md)
@@ -41,8 +41,8 @@
   * relativeTo
   * pathMatch
   * ActivatedRoute
-  * Routing in Angular
-  * Passing Data with Route
+  * [Routing in Angular](angular4/routing-in-angular.md)
+  * [Passing Data with Route](angular4/passing-data-with-route.md)
   * [Route Parameters](angular4/route-parameters.md)
 * [Intercept HTTP request](angular4/intercept-http-request.md)
 * [Custom Directives](angular4/custom-directives.md)
@@ -75,6 +75,7 @@
 * [CSS3 Filter](css3-filter.md)
 * [CSS3 Transitions](methods.md)
 * [Media Queries](media-queries.md)
+* [CSS 3 Grids](css-3-grids.md)
 
 ## ES6
 
