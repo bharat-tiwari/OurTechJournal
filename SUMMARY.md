@@ -142,4 +142,5 @@
 * [How React-Native works](javascript/how-react-native-works.md)
 * [refs](javascript/refs.md)
 * [Server-side Rendering](javascript/server-side-rendering.md)
+* [Lifecycle](javascript/lifecycle.md)
 

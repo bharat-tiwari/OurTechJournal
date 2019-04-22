@@ -4,6 +4,8 @@ CSRF = Cross-site Request Forgery
 
 A hacker site sends requests to your server posing itself as a valid authenticated user from another tab in the same browser session where user is logged in.
 
+To prevent CSRF, backend data services usually implement a **CORS** policy , which means it would only allow access to data if the request contains a valid token in the header
+
 ## In ASP.Net MVC
 To avoid CSRF, ASP.net MVC uses `AntiForgeryToken` that can be added to a form which user submits to send request. This would create a unique session token and passed as a hidden field's value in the form. 
 
