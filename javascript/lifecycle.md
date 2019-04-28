@@ -31,7 +31,7 @@ Add DOM event handlers, timers (etc) on componentDidMount(),
 remove event listners in componentWillUnmount().
 
 
-------------------------
+----------------------
 ![](/assets/LifeCycle1.png)
 
 ![](/assets/Lifecycle2-min.png)
