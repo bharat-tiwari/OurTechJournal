@@ -40,3 +40,8 @@ remove event listners in componentWillUnmount().
 
 ![](/assets/Lifecycle4-min.png)
 
+
+-----------------------
+
+**My Bold Text, in red color.**{: style="color: red; opacity: 0.80;" }
+
