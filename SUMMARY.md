@@ -1,8 +1,10 @@
-# Summary
+# Table of contents
+
+* [Introduction](README.md)
 
 ## Overview
 
-* [Introduction](README.md)
+* [Introduction](overview/readme.md)
 
 ## PWA
 
@@ -10,53 +12,53 @@
 
 ## Angular 4
 
-* [Angular vs React](angular4/angular-vs-react.md)
-* [Change Detection](angular4/change-detection.md)
-* [Lazy Loading of modules](angular4/lazy-loading-of-modules.md)
-* [Preloading](angular4/preloading.md)
-* [AOT Compilation](angular4/aot-compilation.md)
-* [Route Guards](angular4/route-guards.md)
-* [Shared Modules](angular4/shared-modules.md)
-* [Tree Shaking](angular4/tree-shaking.md)
-* [LifeCycle Hooks](angular4/lifecycle-hooks.md)
-* [ngRx](angular4/ngrx.md)
-* [Observables](angular4/rx-observables.md)
-* [Observable vs Subject](angular4/observable-vs-subject.md)
-  * [BehaviorSubject](angular4/observable-vs-subject/behaviorsubject.md)
-* [Observables vs Promises](angular4/observables-vs-promises.md)
-* [Builtin Directives](angular4/builtin-directives.md)
-  * Temp
-  * [Structural Directives](angular4/directive.md)
-    * [ngForTemp](angular4/directive/ngfor.md)
-    * [ngSwitch](angular4/directive/ngswitch.md)
-    * [ngFor](angular4/directive/ngfor-directive.md)
-    * [ngIf](angular4/directive/ngif.md)
-  * [Attribute Directives](angular4/attribute-directives.md)
-    * temp
-    * [ngClass](angular4/attribute-directives/ngclass.md)
-    * [ngStyle](angular4/attribute-directives/ngstyle.md)
-* [Routing](angular4/routing.md)
-  * [Routing in Angular](angular4/routing-in-angular.md)
-  * [Setting up basic routing](angular4/setting-up-basic-routing.md)
-  * [routerLink and routerLinkActive](angular4/routerlink.md)
-  * [router.navigate and ActivatedRoute](angular4/routernavigate.md)
-  * [Route Params as Observables](angular4/route-params-and-data.md)
-  * redirectTo
-  * relativeTo
-  * pathMatch
-  * ActivatedRoute
-  * [Routing in Angular](angular4/routing-in-angular.md)
-  * [Passing Data with Route](angular4/passing-data-with-route.md)
-  * [Route Parameters](angular4/route-parameters.md)
-* [Intercept HTTP request](angular4/intercept-http-request.md)
-* [Custom Directives](angular4/custom-directives.md)
-* [Communication between components](angular4/communication-between-components.md)
-* [Angular Modules](angular4/angular-modules.md)
-* [Reactive Forms](angular4/reactive-forms.md)
-* [Unit Testing](angular4/unit-testing.md)
-  * [TestBed and component fixture](angular4/unit-testing/testbed-and-component-fixture.md)
-  * [Testing HttpClient requests](angular4/unit-testing/testing-httpclient-requests.md)
-  * [Testing fakeAsync](angular4/unit-testing/testing-fakeasync.md)
+* [Angular vs React](angular-4/angular-vs-react.md)
+* [Change Detection](angular-4/change-detection.md)
+* [Lazy Loading of modules](angular-4/lazy-loading-of-modules.md)
+* [Preloading](angular-4/preloading.md)
+* [AOT Compilation](angular-4/aot-compilation.md)
+* [Route Guards](angular-4/route-guards.md)
+* [Shared Modules](angular-4/shared-modules.md)
+* [Tree Shaking](angular-4/tree-shaking.md)
+* [LifeCycle Hooks](angular-4/lifecycle-hooks.md)
+* [ngRx](angular-4/ngrx.md)
+* [Observables](angular-4/rx-observables.md)
+* [Observable vs Subject](angular-4/observable-vs-subject/README.md)
+  * [BehaviorSubject](angular-4/observable-vs-subject/behaviorsubject.md)
+* [Observables vs Promises](angular-4/observables-vs-promises.md)
+* [Builtin Directives](angular-4/builtin-directives/README.md)
+  * [Temp](angular-4/builtin-directives/temp.md)
+  * [Structural Directives](angular-4/builtin-directives/directive/README.md)
+    * [ngForTemp](angular-4/builtin-directives/directive/ngfor.md)
+    * [ngSwitch](angular-4/builtin-directives/directive/ngswitch.md)
+    * [ngFor](angular-4/builtin-directives/directive/ngfor-directive.md)
+    * [ngIf](angular-4/builtin-directives/directive/ngif.md)
+  * [Attribute Directives](angular-4/builtin-directives/attribute-directives/README.md)
+    * [temp](angular-4/builtin-directives/attribute-directives/temp.md)
+    * [ngClass](angular-4/builtin-directives/attribute-directives/ngclass.md)
+    * [ngStyle](angular-4/builtin-directives/attribute-directives/ngstyle.md)
+* [Routing](angular-4/routing/README.md)
+  * [Routing in Angular](angular-4/routing/routing-in-angular.md)
+  * [Setting up basic routing](angular-4/routing/setting-up-basic-routing.md)
+  * [routerLink and routerLinkActive](angular-4/routing/routerlink.md)
+  * [router.navigate and ActivatedRoute](angular-4/routing/routernavigate.md)
+  * [Route Params as Observables](angular-4/routing/route-params-and-data.md)
+  * [redirectTo](angular-4/routing/redirectto.md)
+  * [relativeTo](angular-4/routing/relativeto.md)
+  * [pathMatch](angular-4/routing/pathmatch.md)
+  * [ActivatedRoute](angular-4/routing/activatedroute.md)
+  * [Routing in Angular](angular-4/routing/routing-in-angular-1.md)
+  * [Passing Data with Route](angular-4/routing/passing-data-with-route.md)
+  * [Route Parameters](angular-4/routing/route-parameters.md)
+* [Intercept HTTP request](angular-4/intercept-http-request.md)
+* [Custom Directives](angular-4/custom-directives.md)
+* [Communication between components](angular-4/communication-between-components.md)
+* [Angular Modules](angular-4/angular-modules.md)
+* [Reactive Forms](angular-4/reactive-forms.md)
+* [Unit Testing](angular-4/unit-testing/README.md)
+  * [TestBed and component fixture](angular-4/unit-testing/testbed-and-component-fixture.md)
+  * [Testing HttpClient requests](angular-4/unit-testing/testing-httpclient-requests.md)
+  * [Testing fakeAsync](angular-4/unit-testing/testing-fakeasync.md)
 
 ## GraphQL
 
@@ -64,22 +66,22 @@
 * [Server](graphql/server.md)
 * [Client Side](graphql/client-side.md)
 * [GraphQL in Angular](graphql/graphql-in-angular.md)
-* Queries
-  * temp
-  * query with parameters
-  * aliases
-  * fragments
-  * @include directive
-  * @skip directive
-  * variables
-  * Inline Fragments
+* [Queries](graphql/queries/README.md)
+  * [temp](graphql/queries/temp.md)
+  * [query with parameters](graphql/queries/query-with-parameters.md)
+  * [aliases](graphql/queries/aliases.md)
+  * [fragments](graphql/queries/fragments.md)
+  * [@include directive](graphql/queries/include-directive.md)
+  * [@skip directive](graphql/queries/skip-directive.md)
+  * [variables](graphql/queries/variables.md)
+  * [Inline Fragments](graphql/queries/inline-fragments.md)
 
 ## CSS
 
-* [CSS3 Filter](css3-filter.md)
-* [CSS3 Transitions](methods.md)
-* [Media Queries](media-queries.md)
-* [CSS 3 Grids](css-3-grids.md)
+* [CSS3 Filter](css/css3-filter.md)
+* [CSS3 Transitions](css/methods.md)
+* [Media Queries](css/media-queries.md)
+* [CSS 3 Grids](css/css-3-grids.md)
 
 ## ES6
 
@@ -88,9 +90,9 @@
 
 ## SASS
 
-* [Mixins](sass-scss/sass-mixins.md)
-* [Lists](sass-scss/lists.md)
-* [Maps](sass-scss/maps.md)
+* [Mixins](sass/sass-mixins.md)
+* [Lists](sass/lists.md)
+* [Maps](sass/maps.md)
 
 ## RxJS
 
@@ -108,9 +110,9 @@
 * ['this' keyword](javascript/this-keyword.md)
 * [Closures](javascript/closures.md)
 * [use strict](javascript/use-strict.md)
-* [Prototypal Inheritance](javascript/prototypical-inheritance.md)
+* [Prototypal Inheritance](javascript/prototypical-inheritance/README.md)
   * [Creating Object in Javascript](javascript/prototypical-inheritance/creating-object-in-javascript.md)
-* NaN
+* [NaN](javascript/nan.md)
 * [typeof vs instanceof](javascript/typeof-vs-instanceof.md)
 * [Promise](javascript/promise.md)
 * [localStorage and SessionStorage](javascript/localstorage-and-sessionstorage.md)
@@ -119,7 +121,7 @@
 * [Event Delegation](javascript/event-delegation.md)
 * [Javascript Code Execution](javascript/javascript-code-execution.md)
 * [XHR Request](javascript/xhr-request.md)
-* [Promise Error: Catch vs Error Function in Then ](javascript/promise-error-catch-vs-error-function-in-then.md)
+* [Promise Error: Catch vs Error Function in Then](javascript/promise-error-catch-vs-error-function-in-then.md)
 
 ## Web
 
@@ -131,20 +133,24 @@
 
 ## NodeJS
 
-* [NodeJS Security Checklist](web/nodejs-security-checklist.md)
-* [What is Node.js](web/what-is-nodejs.md)
+* [NodeJS Security Checklist](nodejs/nodejs-security-checklist.md)
+* [What is Node.js](nodejs/what-is-nodejs.md)
 
 ## REACT
 
-* [Routing - React Router 4](javascript/routing-react-router-4.md)
-* [Higher-Order Component](javascript/higher-order-component.md)
-* [REDUX](javascript/redux.md)
-* [forceUpdate\(\)](javascript/forceupdate.md)
-* [Storing Data in React](javascript/storing-data-in-react.md)
-* [Error Handling](angular4/error-handling.md)
-* [React Context](javascript/react-context.md)
-* [How React-Native works](javascript/how-react-native-works.md)
-* [refs](javascript/refs.md)
-* [Server-side Rendering](javascript/server-side-rendering.md)
-* [Lifecycle](javascript/lifecycle.md)
+* [Routing - React Router 4](react/routing-react-router-4.md)
+* [Higher-Order Component](react/higher-order-component.md)
+* [REDUX](react/redux.md)
+* [forceUpdate\(\)](react/forceupdate.md)
+* [Storing Data in React](react/storing-data-in-react.md)
+* [Error Handling](react/error-handling.md)
+* [React Context](react/react-context.md)
+* [How React-Native works](react/how-react-native-works.md)
+* [refs](react/refs.md)
+* [Server-side Rendering](react/server-side-rendering.md)
+* [Lifecycle](react/lifecycle.md)
+
+## JWT
+
+* [What is JWT and How it works](jwt/what-is-jwt-and-how-it-works.md)
 

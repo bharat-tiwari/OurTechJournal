@@ -1,6 +1,6 @@
-# XHR
+# XHR Request
 
-```js
+```javascript
 var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = () => {
     if (xhr.readyState === 4) {
@@ -14,3 +14,4 @@ var xhr = new XMLHttpRequest();
   xhr.open('GET', '/api/stuff', true);
   xhr.send();
 ```
+

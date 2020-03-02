@@ -1,8 +1,8 @@
-#Promise Error: Catch vs Error Function in Then 
+# Promise Error: Catch vs Error Function in Then
 
-https://stackoverflow.com/a/33278420
+[https://stackoverflow.com/a/33278420](https://stackoverflow.com/a/33278420)
 
-```js
+```javascript
 somePromise.then(() => {
    // if some error happens here, it will be caught in 'catch'
    anErrorThrowingFunction('some wrong param');
@@ -21,7 +21,6 @@ somePromise.then(() => {
 somePromise.then(() => {
    // if some error happens here, it will be caught in 'catch'
    anErrorThrowingFunction('some wrong param');
-}, (err) => console.log('error')); 
-
-
+}, (err) => console.log('error'));
 ```
+
