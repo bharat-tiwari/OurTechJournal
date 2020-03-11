@@ -149,6 +149,7 @@
 * [refs](react/refs.md)
 * [Server-side Rendering](react/server-side-rendering.md)
 * [Jest setup file](react/jest-setup-file.md)
+* [React-test-renderer](react/react-test-renderer.md)
 * [Lifecycle](react/lifecycle.md)
 
 ## JWT
