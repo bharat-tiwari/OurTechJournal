@@ -148,6 +148,7 @@
 * [How React-Native works](react/how-react-native-works.md)
 * [refs](react/refs.md)
 * [Server-side Rendering](react/server-side-rendering.md)
+* [Jest setup file](react/jest-setup-file.md)
 * [Lifecycle](react/lifecycle.md)
 
 ## JWT
