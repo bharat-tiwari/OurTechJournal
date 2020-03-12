@@ -18,11 +18,12 @@
 
 * Top to bottom
 * Two cycles
-  * 1st cycle:
+  * 1st cycle \( also called **Hositing**\)
+    * starts from the top of the code to bottom
     * goes through all the code and puts all variables/object/function definitions in memory as properties of 'global' object
     * skips any execution or evaluation code, e.g. a function call or boolean evaluation or assignment is skipped
   * 2nd cycle:
-    * starts from the top of the code
+    * starts from the top of the code to bottom
     * starts execution and evaluation of any function calls, or assignments or evaluations.
 
 ![](../.gitbook/assets/jscodeexecution.png)
