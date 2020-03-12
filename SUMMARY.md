@@ -110,6 +110,7 @@
 * [Lexical Environment in JS](javascript/lexical-environment-in-js.md)
 * [var vs let/const](javascript/var-vs-let-const.md)
 * ['this' keyword](javascript/this-keyword.md)
+* [Javascript Code Execution](javascript/javascript-code-execution.md)
 * [Closures](javascript/closures.md)
 * [use strict](javascript/use-strict.md)
 * [Prototypal Inheritance](javascript/prototypical-inheritance/README.md)
@@ -121,7 +122,6 @@
 * [Event handlers](javascript/event-handlers.md)
 * [Event bubbling](javascript/event-bubbling.md)
 * [Event Delegation](javascript/event-delegation.md)
-* [Javascript Code Execution](javascript/javascript-code-execution.md)
 * [XHR Request](javascript/xhr-request.md)
 * [Promise Error: Catch vs Error Function in Then](javascript/promise-error-catch-vs-error-function-in-then.md)
 
