@@ -1,6 +1,8 @@
 # 'this' keyword
 
-f\# 'this' keyword In javascript, when a function is invoked
+\#\# 'this' keyword 
+
+In javascript, when a function is invoked
 
 * an 'execution context' is created for the function
   * each 'execution context' has a 'variable environment' where the variables declared inside the function live
