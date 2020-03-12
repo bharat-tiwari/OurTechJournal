@@ -107,6 +107,8 @@
 
 ## Javascript
 
+* [Lexical Environment in JS](javascript/lexical-environment-in-js.md)
+* [var vs let/const](javascript/var-vs-let-const.md)
 * ['this' keyword](javascript/this-keyword.md)
 * [Closures](javascript/closures.md)
 * [use strict](javascript/use-strict.md)
