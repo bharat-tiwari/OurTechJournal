@@ -6,9 +6,42 @@
 
 * [Introduction](overview/readme.md)
 
+## Javascript
+
+* [Lexical Environment in JS](javascript/lexical-environment-in-js.md)
+* [var vs let/const](javascript/var-vs-let-const.md)
+* ['this' keyword](javascript/this-keyword.md)
+* [Javascript Code Execution](javascript/javascript-code-execution.md)
+* [Closures](javascript/closures.md)
+* [use strict](javascript/use-strict.md)
+* [Prototypal Inheritance](javascript/prototypical-inheritance/README.md)
+  * [Creating Object in Javascript](javascript/prototypical-inheritance/creating-object-in-javascript.md)
+* [NaN](javascript/nan.md)
+* [typeof vs instanceof](javascript/typeof-vs-instanceof.md)
+* [Promise](javascript/promise.md)
+* [localStorage and SessionStorage](javascript/localstorage-and-sessionstorage.md)
+* [Event handlers](javascript/event-handlers.md)
+* [Event bubbling](javascript/event-bubbling.md)
+* [Event Delegation](javascript/event-delegation.md)
+* [XHR Request](javascript/xhr-request.md)
+* [Promise Error: Catch vs Error Function in Then](javascript/promise-error-catch-vs-error-function-in-then.md)
+
 ## PWA
 
 * [What is PWA](pwa/what-is-pwa.md)
+
+## ES6
+
+* [Sets](es6/sets.md)
+* [Maps](es6/maps.md)
+
+## Web
+
+* [http / https](web/http-https.md)
+* [CORS](web/cors.md)
+* [CSRF](web/csrf.md)
+* [XSS Attack](web/xss-attack.md)
+* [What is SPA](web/what-is-spa.md)
 
 ## Angular 4
 
@@ -83,11 +116,6 @@
 * [Media Queries](css/media-queries.md)
 * [CSS 3 Grids](css/css-3-grids.md)
 
-## ES6
-
-* [Sets](es6/sets.md)
-* [Maps](es6/maps.md)
-
 ## SASS
 
 * [Mixins](sass/sass-mixins.md)
@@ -104,34 +132,6 @@
 
 * [Typeguards](typescript/typeguards.md)
 * [Pattern Matching with Typescript](typescript/pattern-matching-with-typescript.md)
-
-## Javascript
-
-* [Lexical Environment in JS](javascript/lexical-environment-in-js.md)
-* [var vs let/const](javascript/var-vs-let-const.md)
-* ['this' keyword](javascript/this-keyword.md)
-* [Javascript Code Execution](javascript/javascript-code-execution.md)
-* [Closures](javascript/closures.md)
-* [use strict](javascript/use-strict.md)
-* [Prototypal Inheritance](javascript/prototypical-inheritance/README.md)
-  * [Creating Object in Javascript](javascript/prototypical-inheritance/creating-object-in-javascript.md)
-* [NaN](javascript/nan.md)
-* [typeof vs instanceof](javascript/typeof-vs-instanceof.md)
-* [Promise](javascript/promise.md)
-* [localStorage and SessionStorage](javascript/localstorage-and-sessionstorage.md)
-* [Event handlers](javascript/event-handlers.md)
-* [Event bubbling](javascript/event-bubbling.md)
-* [Event Delegation](javascript/event-delegation.md)
-* [XHR Request](javascript/xhr-request.md)
-* [Promise Error: Catch vs Error Function in Then](javascript/promise-error-catch-vs-error-function-in-then.md)
-
-## Web
-
-* [http / https](web/http-https.md)
-* [CORS](web/cors.md)
-* [CSRF](web/csrf.md)
-* [XSS Attack](web/xss-attack.md)
-* [What is SPA](web/what-is-spa.md)
 
 ## NodeJS
 
