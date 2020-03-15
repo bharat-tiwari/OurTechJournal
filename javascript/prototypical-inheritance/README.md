@@ -10,11 +10,11 @@ In class-based inheritance, given a `ClassA`, you can inherit `ClassB` from `Cla
 
 ## Prototypal Inheritance
 
-In Javascript, whenever we create an object, les say `Obj1`, an internal property called `proto` gets created. This `proto` property points to a base object. To this `proto` object, we can add any property , lets say `prop2`. We can access this property as `Obj1.prop2`. Javascript engine would look for `prop2` in `Obj1`, when it won't find the property as direct child of `Obj1`, it would start looking for it under Obj1's proto object. Thus a property under `proto` object can be accessed directly using dot notation on `Obj1`.
+In Javascript, whenever we create an object, lets say `Obj1`, an internal property called `proto` gets auto-created for the object. This `proto` property points to a base object. To this `proto` object, we can add any property , let's say `prop2`. We can access this property as `Obj1.prop2`. Javascript engine would look for `prop2` in `Obj1`, when it won't find the property as direct child of `Obj1`, it would start looking for it under obj1's `proto` object. Thus a property under `proto` object can be accessed directly using dot notation on `Obj1`.
 
 \(in Chrome V8, this `proto` property of any object is referred as **proto**: \`myObject.**proto**.**proto**.....\)
 
-The `proto` object can itself have another `proto` property that you may use to add more properties and methods, lets say another property `prop3` is added to the `Obj1.proto.proto`. And this property can again be accessed with dot operator on 'Obj1' like `Obj1.prop3`. Thus it may have a **prototypal chain**.
+The `proto` object can itself have another `proto` property that you may use to add more properties and methods, let's say another property `prop3` is added to the `Obj1.proto.proto`. And this property can again be accessed with dot operator on 'Obj1' like `Obj1.prop3`. Thus it may have a **prototypal chain**.
 
 ## Base prototype object
 
