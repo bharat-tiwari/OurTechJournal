@@ -10,6 +10,7 @@
 
 * [Lexical Environment in JS](javascript/lexical-environment-in-js.md)
 * [var vs let/const](javascript/var-vs-let-const.md)
+* [Execution Context](javascript/execution-context.md)
 * ['this' keyword](javascript/this-keyword.md)
 * [Javascript Code Execution](javascript/javascript-code-execution.md)
 * [Closures](javascript/closures.md)
