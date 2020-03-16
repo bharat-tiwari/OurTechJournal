@@ -50,5 +50,7 @@ console.log('a1=', a1)
 
 ```
 
-![](../.gitbook/assets/1.mp4)
+{% embed url="https://youtu.be/AsVkKqqT8S0" %}
+
+
 
