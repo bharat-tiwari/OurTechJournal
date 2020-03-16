@@ -14,3 +14,5 @@ When the base Global Execution Context is created, the Javascript engine automat
 * **'this'** variable  - in Global context, 'this' points to the Global object and thus to window object
 * a link to outer environment \(in case of Global execution context, the outer environment would be null or undefined as Global context is the outermost context one can get to\)
 
+![](../.gitbook/assets/1.png)
+

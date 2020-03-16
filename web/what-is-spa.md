@@ -22,7 +22,7 @@ This not used much by the frameworks. With this approach, the application always
 
 SPA's use the various properties provided by `window.location` in javascript to figure out what content is to be rendered on the screen.
 
-![](../.gitbook/assets/1.png)
+![](../.gitbook/assets/1%20%281%29.png)
 
 ## Routers
 
