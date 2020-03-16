@@ -11,7 +11,7 @@ Since `undefined` is a special variable/value in javascript, we can write boolea
 ```text
 console.log(a)
 
-/// ------- result
+/// ------- output
 /// above code would trigger an error when the code runs
 /// Uncaught Reference Error: a is not declared
 ```
@@ -26,7 +26,7 @@ if (a === undefined) {
   console.log('a has some defined value');
 }
 
-/// ------- result
+/// ------- output
 /// above code would output below
 /// undefined
 /// a has a value of undefined
