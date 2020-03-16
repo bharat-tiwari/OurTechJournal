@@ -18,18 +18,18 @@ console.log(a)
 
 ```text
 var a;
-console.log(a)
+console.log('>>>>', a)
 
 if (a === undefined) {
- console.log('a has a value of undefined');
+ console.log('>>>> a has a value of undefined');
 } else {
-  console.log('a has some defined value');
+ console.log('>>>> a has some defined value');
 }
 
 /// ------- output
 /// above code would output below
-/// undefined
-/// a has a value of undefined
+/// >>>> undefined
+/// >>>> a has a value of undefined
 
 ```
 
