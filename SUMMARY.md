@@ -19,6 +19,7 @@
 * [Prototypal Inheritance](javascript/prototypical-inheritance/README.md)
   * [Creating Object in Javascript](javascript/prototypical-inheritance/creating-object-in-javascript.md)
 * [NaN](javascript/nan.md)
+* [use strict mode](javascript/use-strict-mode.md)
 * [typeof vs instanceof](javascript/typeof-vs-instanceof.md)
 * [Promise](javascript/promise.md)
 * [localStorage and SessionStorage](javascript/localstorage-and-sessionstorage.md)
