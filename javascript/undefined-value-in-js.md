@@ -33,5 +33,22 @@ if (a === undefined) {
 
 ```
 
+When an undeclared variable is assigned a value, the JS engine \(in non-strict mode\) would automatically add the variable to the global object in the 1st phase of  code execution. 
 
+```text
+a1 = 3;
+console.log('a1=', a1)
+
+/// ------- output
+/// for the above code  (assuming 'use strict' is not enabled),
+/// the JS engine (in non-strict mode), would add 'a' to the global object
+/// a1=3
+
+
+/// in strict mode, for the above the JS engine will throw 
+/// Uncaught Reference Error: a is not declared
+
+```
+
+![](../.gitbook/assets/1.mp4)
 

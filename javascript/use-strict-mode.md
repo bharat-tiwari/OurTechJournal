@@ -1,7 +1,5 @@
 # use strict mode
 
-
-
  `use strict`  enforces a stricter parsing and error handling for our JavaScript code at runtime. Code errors that would otherwise have been ignored or would have failed silently will now generate errors or throw exceptions. 
 
 Using `use strict` mode  is a good practice.
@@ -15,4 +13,6 @@ Some benefits of using strict mode are:
   * Note: It used to be \(in ECMAScript 5\) that strict mode would disallow duplicate property names \(e.g. `var object = {foo: "bar", foo: "baz"};`\) but [as of ECMAScript 2015](https://stackoverflow.com/questions/30617139/whats-the-purpose-of-allowing-duplicate-property-names) this is no longer the case.
 * **Makes eval\(\) safer.** There are some differences in the way `eval()` behaves in strict mode and in non-strict mode. Most significantly, in strict mode, variables and functions declared inside of an `eval()` statement are _not_ created in the containing scope \(they _are_ created in the containing scope in non-strict mode, which can also be a common source of problems\).
 * **Throws error on invalid usage of `delete`.** The `delete` operator \(used to remove properties from objects\) cannot be used on non-configurable properties of the object. Non-strict code will fail silently when an attempt is made to delete a non-configurable property, whereas strict mode will throw an error in such a case.
+
+_**Reference:**_ [_**Toptal Interview Questions**_ ](https://www.toptal.com/javascript/interview-questions)_\*\*\*\*_
 

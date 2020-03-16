@@ -15,7 +15,6 @@
 * [undefined value in JS](javascript/undefined-value-in-js.md)
 * [Javascript Code Execution](javascript/javascript-code-execution.md)
 * [Closures](javascript/closures.md)
-* [use strict](javascript/use-strict.md)
 * [Prototypal Inheritance](javascript/prototypical-inheritance/README.md)
   * [Creating Object in Javascript](javascript/prototypical-inheritance/creating-object-in-javascript.md)
 * [NaN](javascript/nan.md)
