@@ -2,6 +2,10 @@
 
 When working with React, you usally are working with virtual DOM elements that react would finally render to actual DOM as needed. However, there are some cases where you might have to interact with the actual elements. For such cases, React provides a ref system.
 
+In React, is most cases avoid the need to use access elements after DOM rendering,
+
+But when unavoidable, use Refs not Ids \(why? - see [https://www.javascriptstuff.com/use-refs-not-ids/](https://www.javascriptstuff.com/use-refs-not-ids/)\)
+
 ## Creating a Ref using `createRef` method \( in React 16.3+\)
 
 1. Create an class-level `ref` variable using  `React.createRef()` 
