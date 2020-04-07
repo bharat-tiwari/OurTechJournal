@@ -17,7 +17,7 @@
 
 ## JS Execution is single threaded
 
-Single threaded = one command at a time , one line of code at a time
+Single threaded = one command at a time 
 
 Some languages are multi-threaded, that means the language might be running multiple pieces of code in multiple threads in  parallel at a time.
 
@@ -26,6 +26,12 @@ But javascript is single threaded
 \(the Browser program , under the hood, may give multi-threaded behavior to the JS code, but for our/developer's perspective JS is running in single thread\)
 
 ## JS Execution is synchronous
+
+Synchronous execution = one line of code at a time and in the order\(top to bottom\)
+
+Javascript execution is synchronous always 
+
+\(Asynchronous JS code execution for example like in AJAX feels like or behaves like Asynchronous but there too javascript execution is synchronous\)
 
 
 
