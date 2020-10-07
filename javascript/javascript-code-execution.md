@@ -47,5 +47,5 @@ Javascript execution is synchronous always
     * starts from the top of the code to bottom
     * starts execution and evaluation of any function calls, or assignments or evaluations.
 
-![](../.gitbook/assets/jscodeexecution.png)
+![](../.gitbook/assets/jsCodeExecution.png)
 

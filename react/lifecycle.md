@@ -28,13 +28,13 @@ Add DOM event handlers, timers \(etc\) on componentDidMount\(\),
 
 remove event listners in componentWillUnmount\(\).
 
-![](../.gitbook/assets/lifecycle1.png)
+![](../.gitbook/assets/LifeCycle1.png)
 
-![](../.gitbook/assets/lifecycle2-min.png)
+![](../.gitbook/assets/Lifecycle2-min.png)
 
-![](../.gitbook/assets/lifecycle3-min.png)
+![](../.gitbook/assets/Lifecycle3-min.png)
 
-![](../.gitbook/assets/lifecycle4-min.png)
+![](../.gitbook/assets/Lifecycle4-min.png)
 
 **My Bold Text, in red color.**{: style="color: red; opacity: 0.80;" }
 
