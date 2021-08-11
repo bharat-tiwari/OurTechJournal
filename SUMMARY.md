@@ -155,6 +155,7 @@
 * [Jest setup file](react/jest-setup-file.md)
 * [React-test-renderer](react/react-test-renderer.md)
 * [Lifecycle](react/lifecycle.md)
+* [React Testing Library](react/react-testing-library.md)
 
 ## JWT
 
