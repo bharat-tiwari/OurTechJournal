@@ -10,7 +10,7 @@ A user enters some malicious scripting code like below in one of the input field
 </script>
 ```
 
-To avoid such XSS attacks, all MVC Controller's actions **by default** don't process the request and send back error if any HTML code is sent in the request.
+in ASP.net, To avoid such XSS attacks, all MVC Controller's actions **by default** don't process the request and send back error if any HTML code is sent in the request.
 
 In case you want some Controller action to allow HTML in the requests, use the decorator `ValidateInput(false)` on the action method:
 

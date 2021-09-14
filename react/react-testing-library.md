@@ -1,11 +1,7 @@
 # React Testing Library
 
-
-
-
-
 ```text
- @testing-library/react jest
+ @testing-library/react, jest
 ```
 
 { `render` } from the react-testing-lib allow us to mount/render a component in virtual memory 

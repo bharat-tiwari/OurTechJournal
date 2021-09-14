@@ -6,3 +6,7 @@ when a website uses HTTPS, it means the data sent over the web is _**encrypted**
 
 To implement HTTPS, a web site needs to purchase **SSL** certificate \(Secure Socket Layer\) that sets up a secure encrypted connection between server and client
 
+## How servers implement HTTPS
+
+&lt;&lt; to do - link a resource that explains https and its implementation &gt;&gt;
+
